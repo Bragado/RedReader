@@ -15,7 +15,7 @@ Regarding the software process we will be going over on how the different typica
 ---
 
 ###Introduction
-RedReader is an open source mobile app available in Android and IOS. Known by “unofficial, open source cliente for reddit”, already have 50.000 downloads on playStore. Launched in 2013, version 1.3.0, it come a long way till this current version available, 1.9.6. Its principal featuras are:
+RedReader is an open source mobile app available in Android and IOS. Known by “unofficial, open source cliente for reddit”, already have 50.000 downloads on playStore. Launched in 2013, version 1.3.0, it come a long way till this current version available, 1.9.6. Its principal features are:
 *	Free and Open Source Software - no ads/tracking.
 *	Lightweight and fast
 *	Downloads are compressed to save bandwidth.
