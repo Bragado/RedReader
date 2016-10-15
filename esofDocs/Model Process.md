@@ -31,8 +31,9 @@ _Last Versions Released_
 
 
 
-Looking at the first table we found that initially, very close to the beginning of the launch of the first version of this project, several changes were released from the same version on the same day and even multiple versions have been released in a short time (from day to day) due to suggestions that emerged from the users and even to correct some bugs detected.
-Now Looking at the second table, things get better. The new versions don't come out every day to release a new feature or fix some bugs and that's due to the Alpha versions. Alpha versions allow contibutors to add new features there without creating a new version of ReadReader, instead, they create a new Alpha version with the new feature, in order to not change the actual version of the app several times. Users are invited to test the new Alpha versions, to try the new features and report bugs. Once the Alpha version is stable and big enough to create a new version it is released.
+<p>Looking at the first table we found that initially, very close to the beginning of the launch of the first version of this project, several changes were released from the same version on the same day and even multiple versions have been released in a short time (from day to day) due to suggestions that emerged from the users and even to correct some bugs detected.</p>
+
+<p>Now Looking at the second table, things get better. The new versions don't come out every day to release a new feature or fix some bugs and that's due to the Alpha versions. Alpha versions allow contibutors to add new features there without creating a new version of ReadReader, instead, they create a new Alpha version with the new feature, in order to not change the actual version of the app several times. Users are invited to test the new Alpha versions, to try the new features and report bugs. Once the Alpha version is stable and big enough to create a new version it is released.</p>
 
 
 ####Release Branches
