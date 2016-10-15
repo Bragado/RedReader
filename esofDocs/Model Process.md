@@ -9,8 +9,8 @@
 
 ---
 ### Abstract
-In the context of the subject ESOF we intend to analyze the software processes used by ...
-Regarding the software process we will be going over on how the different typical phases of most process models are/were handled by the developers followed by an analysis of which models best fit what they have been doing.
+In the context of the subject ESOF we intend to analyze the software processes used by the contributors of RedReader.
+Regarding the software process we will be going over on how the different typical phases of the process model are/were handled by the developer(s) followed by an analysis of which models best fit the project.
 
 ---
 
