@@ -61,3 +61,5 @@ There doesn't seem to be a defined time of release for each new version of the a
 After a new version has been released and to avoid having to release a new one shortly after, any new implemented functionalities can be tested in the Alpha version by users and contributors alike.
 
 ---
+
+### Development process
