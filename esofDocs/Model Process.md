@@ -3,6 +3,9 @@
 ## Authors
 
 * Luís Filipe Rodrigues Coelho
+* Diana Isabel Garcia Pinto
+* Marisa Daniela Quintal Oliveira
+* João Araújo
 
 ---
 ### Abstract
@@ -21,7 +24,7 @@ Regarding software process we will be going over how the different typical phase
 ####Release Branches
 
 
-####Release cycle
+####Release Cycle
 
 
 ---
