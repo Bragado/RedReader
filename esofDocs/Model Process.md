@@ -26,6 +26,8 @@ However, from version 1.9.3.1 the project now has two versions, one of them the 
   
 ####Release Branches
 
+Redreader is a incremental development application that allows developer to take advantage of what have learned during inicial phase and beyond that, suffers updates in a way that application will keep attractive and innovative to the user.
+Is constantly releasing new versions. The developer tried using branches for the development of the application, but was not good succeed, so opted to stay only to develop in the branch master. The suggestions given by users and application bug fixes are only developed in a continuous and gradual in the master branch.
 
 ####Release Cycle
 
