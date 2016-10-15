@@ -2,15 +2,15 @@
 
 ## Authors
 
-* Luís Filipe Rodrigues Coelho
 * Diana Isabel Garcia Pinto
+* João Henrique Poceiro Vieira de Araújo
+* Luís Filipe Rodrigues Coelho
 * Marisa Daniela Quintal Oliveira
-* João Araújo
 
 ---
 ### Abstract
 In the context of the subject ESOF we intend to analyze the software processes used by ...
-Regarding software process we will be going over how the different typical phases of most process models are/were handled by the developers followed by an analysis of which models best fit what they have been doing.
+Regarding the software process we will be going over on how the different typical phases of most process models are/were handled by the developers followed by an analysis of which models best fit what they have been doing.
 
 ---
 
@@ -29,5 +29,8 @@ However, from version 1.9.3.1 the project now has two versions, one of them the 
 
 ####Release Cycle
 
+There doesn't seem to be a defined time of release for each new version of the application. Over the past year, the time intervals between major releases ranged from one to four months. If necessary, there may be a couple of minor updates between releases, mostly with bug fixes. Since there is only one main developer, the release cycle will ultimately depend on his code frequency and on the number of contributors actively helping during that time frame. 
+
+After a new version has been released and to avoid having to release a new one shortly after, any new implemented functionalities can be tested in the Alpha version by users and contributors alike.
 
 ---
