@@ -63,3 +63,16 @@ After a new version has been released and to avoid having to release a new one s
 ---
 
 ### Development process
+
+RedReader is too small a project to need a particular development model, but each release pretty much works like this:
+*	People continuously suggest new features.
+*	I pick out the most popular/useful ones to go into the release, and implement them over the course of a few months.
+*	The code gets merged in immediately (continuous integration), and an alpha version gets built for nearly every commit.
+*	If other contributors submit pull requests during that time, I review them and they get merged in.
+*	Once all the stuff I've promised is done, I test all the major functionality on various platforms.
+*	Then, after a few days (to wait for alpha bug reports to come in) I make the release.
+
+However, this looks like agile software development, and we talk more about that after we focus in each point.
+
+---
+####*"People continuously suggest new features"*
