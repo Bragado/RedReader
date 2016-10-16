@@ -15,7 +15,7 @@ Regarding the software process we will be going over on how the different typica
 ---
 
 ###Introduction
-RedReader is an open source mobile app available in Android and IOS. Known by “unofficial, open source cliente for reddit”, already have 50.000 downloads on playStore. Launched in 2013, version 1.3.0, it come a long way till this current version available, 1.9.6. Its principal features are:
+RedReader is an open source mobile app available in Android and IOS. Known by “unofficial, open source client for reddit”, already have 50.000 downloads on playStore. Launched in 2013, version 1.3.0, it come a long way till this current version available, 1.9.6. Its principal features are:
 *	Free and Open Source Software - no ads/tracking.
 *	Lightweight and fast
 *	Downloads are compressed to save bandwidth.
@@ -52,7 +52,7 @@ _Last Versions Released_
 ####Release Branches
 
 Redreader is a incremental development application that allows developer to take advantage of what have learned during inicial phase and beyond that, suffers updates in a way that application will keep attractive and innovative to the user.
-Is constantly releasing new versions. The developer tried using branches for the development of the application, but was not good succeed, so opted to stay only to develop in the branch master. The suggestions given by users and application bug fixes are only developed in a continuous and gradual in the master branch.
+Is constantly releasing new versions. The developer tried to use branches for the development of the application, but was not successful, so opted to stay only to develop in the branch master. The suggestions given by users and application bug fixes are only developed in a continuous and gradual in the master branch.
 
 ####Release Cycle
 
