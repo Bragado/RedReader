@@ -107,34 +107,23 @@ Because of its transparent development, which allows users to see how developmen
 The agile software development manifesto is based on 12 main principles which we’ll now compare to what we have observed from *RedReader*’s development process:
 
 1. **Customer satisfaction by early and continuous delivery of useful software**
-Once in a while the latest release of the application has bugs, so the release of the next version has to be anticipated.
-
-Sugestão: falar sobre o release das versões, que muitas vezes são antecipadas para corrigir bugs 
+ Once in a while the latest release of the application has bugs, so the release of the next version has to be anticipated.
 
 2. **Welcome changing requirements, even late in development**
-The users can be involved in all phases of the project.
-
+ The users can be involved in all phases of the project.
 
 3. **Working software is delivered frequently (weeks rather than months)**
-Referring to the second table, the new versions don't come out every day to release a new feature or fix some bugs and that's due to the Alpha versions. After a new version has been released and to avoid having to release a new one shortly after, any new implemented functionalities can be tested in the Alpha version by users and contributors alike.
-
-Sugestão: A tabela prova isso e a implementação das alpha versions também
+ Referring to the second table, the new versions don't come out every day to release a new feature or fix some bugs and that's due to the Alpha versions. After a new version has been released and to avoid having to release a new one shortly after, any new implemented functionalities can be tested in the Alpha version by users and contributors alike.
 
 4. **Close, daily cooperation between business people and developers**
-The project provides a forum to allow the communication between between business people and developers. 
-https://www.reddit.com/r/RedReader/
-
-Sugestão: o forum criado no reddit 
+ The project provides a forum to allow the communication between between business people and developers. 
+ https://www.reddit.com/r/RedReader/ . 
 
 5. **Projects are built around motivated individuals, who should be trusted**
-The application is a open source project, so all users can contribute to the improvement of the project. Sometimes are invited some developers to help.
-
-Sugestão: toda a gente é convidada a participar e muitas vezes desenvolvedores são convidados a ajudar (e ajudam) 
+ The application is a open source project, so all users can contribute to the improvement of the project. Sometimes are invited some developers to help.
 
 6. **Face-to-face conversation is the best form of communication (co-location)**
-In the case of Red Reader, as the team is too small not no need for communication have to be necessarily face to face.
-
-Sugestão: a equipa é demasiado pequena para este ponto
+ In the case of Red Reader, as the team is too small not no need for communication have to be necessarily face to face.
 
 7. **Working software is the principal measure of progress**
  Since the work being done here is on a volunteer basis, working software is the only measure of success.
