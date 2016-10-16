@@ -36,10 +36,10 @@ RedReader is an open source mobile app available in Android and IOS. Known by �
 RedReader is an open source project developed (most of all) by one contributor. When there is another contributor, doing some new features or fixing bugs, if he decided to do pull request, the main contributor decides if the new feature or bug fix should be merged. It doesn’t follow any particular Realese Schedule, most of the time, new versions appear when there’s some bugs to fix or new features to add. The following two tables are data collected about the appearance of new versions (the first versions and the last versions).
 
 ![Service Management](img/table1.PNG)
-_First Versions Released_
+_First Versions Released_<a name="table1">
 
 ![Service Management](img/table2.PNG)
-_Last Versions Released_
+_Last Versions Released_ 
 
 
 
@@ -66,9 +66,9 @@ After a new version has been released and to avoid having to release a new one s
 
 RedReader is too small a project to need a particular development model, but each release pretty much works like this:
 *	People continuously suggest new features.
-*	I pick out the most popular/useful ones to go into the release, and implement them over the course of a few months.
+*	The developer pick out the most popular/useful ones to go into the release, and implement them over the course of a few months.
 *	The code gets merged in immediately (continuous integration), and an alpha version gets built for nearly every commit.
-*	If other contributors submit pull requests during that time, I review them and they get merged in.
+*	If other contributors submit pull requests during that time, the main developer review them and they get merged in.
 *	Once all the stuff I've promised is done, I test all the major functionality on various platforms.
 *	Then, after a few days (to wait for alpha bug reports to come in) I make the release.
 
@@ -76,3 +76,18 @@ However, this looks like agile software development, and we talk more about that
 
 ---
 ####*"People continuously suggest new features"*
+
+RedReader was first [announced](https://www.reddit.com/r/Android/comments/1bskqz/ive_just_released_an_open_source_client_for/) on reddit, one hour later, users started giving feedback. Some of the feedback was bug report but most of it was suggestions about new features and that was enough to launch a new version 3 hours later.
+
+###*"The most popular/useful ones go into the release"*
+
+Like showed before, RedReader had a huge support from reddit community with new suggestions for improvement. One day later after released the app, the developer start collection a [list of to-dos](https://www.reddit.com/r/RedReader/comments/1buzdp/my_current_todo_list_20130407_please_check_this/) suggested. Pratically, almost all of the suggestions are accepted, except particular cases were the new features aren't pratical for the common use or in manners of particular preferences.
+
+###*"The code gets merged in immediately  (continuous integration)"*
+
+Back when the project was announced, every bug fix and every feature add, needed a new version of the app, not a version for each one but, to published the new features or bugs fixed, it had to exist a new version. The problem was that this situation was creating a huge number of versions released in short time (as you can see in [table1]#table1). Nowadays, things are different, every bug fix and every new feature (almost every commit) gives origin to a new [Alpha](https://redreader.org/alpha/), an instable version that can be downloaded so users can try the new features and give feedback.    
+
+
+
+
+
