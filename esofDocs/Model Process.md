@@ -87,6 +87,7 @@ Like showed before, RedReader had a huge support from reddit community with new 
 
 #### Design and implementation
 
+(To be done)
 
 #### Validation
 ####*"The code gets merged in immediately  (continuous integration)"* 
@@ -103,7 +104,43 @@ Because of its transparent development, which allows users to see how developmen
 
 ## Process Analysis
 
+The agile software development manifesto is based on 12 main principles which we’ll now compare to what we have observed from *RedReader*’s development process:
+
+1. **Customer satisfaction by early and continuous delivery of useful software**
+Sugestão: falar sobre o release das versões, que muitas vezes são antecipadas para corrigir bugs 
+
+2. **Welcome changing requirements, even late in development**
 
 
+3. **Working software is delivered frequently (weeks rather than months)**
+Sugestão: A tabela prova isso e a implementação das alpha versions também
 
+4. **Close, daily cooperation between business people and developers**
+Sugestão: o forum criado no reddit 
+
+5. **Projects are built around motivated individuals, who should be trusted**
+Sugestão: toda a gente é convidada a participar e muitas vezes desenvolvedores são convidados a ajudar (e ajudam) 
+
+6. **Face-to-face conversation is the best form of communication (co-location)**
+Sugestão: a equipa é demasiado pequena para este ponto
+
+7. **Working software is the principal measure of progress**
+ Since the work being done here is on a volunteer basis, working software is the only measure of success.
+
+8. **Sustainable development, able to maintain a constant pace**
+ We have some doubts as to the main developers’s ability to maintain a constant pace due to the dependence on voluntary work or his own free time, despite he seeming very motivated. There is an effort towards a constant rhythm as evidenced by the evolution of the releases and the "alpha tecnic".
+9. **Continuous attention to technical excellence and good design**
+ Some of the new alpha versions exist in order to keep code quality
+
+10. **Simplicity—the art of maximizing the amount of work not done—is essential**
+ Since the "customer" is the one how suggests new features and most of the time there's only one developer, only what's needed is what's developed, as said by the developer, "The most popular/useful ones go into the release"
+
+11. **Self-organizing teams**
+ There's only one contributor most of the time and when there's a new one, he is doing the his "work" on his own organization and preference, generally working on features and changes that he himself has proposed.
+
+12. **Regular adaptation to changing circumstance**
+
+---
+
+## Conclusion and Alternatives
 
