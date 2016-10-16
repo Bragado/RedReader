@@ -85,7 +85,7 @@ Like showed before, RedReader had a huge support from reddit community with new 
 
 ###*"The code gets merged in immediately  (continuous integration)"*
 
-Back when the project was announced, every bug fix and every feature add, needed a new version of the app, not a version for each one but, to published the new features or bugs fixed, it had to exist a new version. The problem was that this situation was creating a huge number of versions released in short time (as you can see in [table1]#table1). Nowadays, things are different, every bug fix and every new feature (almost every commit) gives origin to a new [Alpha](https://redreader.org/alpha/), an instable version that can be downloaded so users can try the new features and give feedback.    
+Back when the project was announced, every bug fix and every feature add, needed a new version of the app, not a version for each one but, to published the new features or bugs fixed, it had to exist a new version. The problem was that this situation was creating a huge number of versions released in short time (as you can see in [table1](#table1). Nowadays, things are different, every bug fix and every new feature (almost every commit) gives origin to a new [Alpha](https://redreader.org/alpha/), an instable version that can be downloaded so users can try the new features and give feedback.    
 
 
 
