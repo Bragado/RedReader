@@ -32,7 +32,7 @@ RedReader is an open source mobile app available in Android and IOS. Known by �
 ### Project structure
 
 
-#### <a name="ReleaseSchedule"></a> Release Schedule
+#### <a name="release"></a> Release Schedule
 RedReader is an open source project developed (most of all) by one contributor. When there is another contributor, doing some new features or fixing bugs, if he decided to do pull request, the main contributor decides if the new feature or bug fix should be merged. It doesn’t follow any particular Realese Schedule, most of the time, new versions appear when there’s some bugs to fix or new features to add. The following two tables are data collected about the appearance of new versions (the first versions and the last versions).
 
 ![Service Management](img/table1.PNG)
@@ -85,7 +85,7 @@ Like showed before, RedReader had a huge support from reddit community with new 
 
 ###*"The code gets merged in immediately  (continuous integration)"*
 
-Back when the project was announced, every bug fix and every feature add, needed a new version of the app, not a version for each one but, to published the new features or bugs fixed, it had to exist a new version. The problem was that this situation was creating a huge number of versions released in short time (as you can see in [table1](#tReleaseSchedule). Nowadays, things are different, every bug fix and every new feature (almost every commit) gives origin to a new [Alpha](https://redreader.org/alpha/), an instable version that can be downloaded so users can try the new features and give feedback.    
+Back when the project was announced, every bug fix and every feature add, needed a new version of the app, not a version for each one but, to published the new features or bugs fixed, it had to exist a new version. The problem was that this situation was creating a huge number of versions released in short time (as you can see in [table1](#release). Nowadays, things are different, every bug fix and every new feature (almost every commit) gives origin to a new [Alpha](https://redreader.org/alpha/), an instable version that can be downloaded so users can try the new features and give feedback.    
 
 
 
