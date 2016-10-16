@@ -10,12 +10,12 @@
 ---
 ### Abstract
 In the context of the subject *Software Engineering* we intend to analyze the software processes used by the contributors of RedReader.
-Regarding the software process we will be focusing at how the different typical phases of the process model evolved and how it was handled by the developer(s) followed by an analysis of which models best fit the project.
+Regarding the software process we will be focusing on how the different typical phases of the process model evolved and how it was handled by the developer(s) followed by an analysis of which models best fit the project.
 
 ---
 
 ###Introduction
-RedReader is an open source mobile app available in Android and IOS, known by “unofficial, open source client for reddit”, it already has over 50.000 downloads on PlayStore. Initially released in 2013, it has come a long way until the current version available, 1.9.6. The main features are:
+RedReader is an open source mobile app available for Android and iOS devices. Described as an “unofficial, open source client for reddit”, it already has over 50.000 downloads on the PlayStore. Initially released in 2013, it has come a long way until the current version available, 1.9.6. The main features are:
 *	Free and Open Source Software - no ads/tracking.
 *	Lightweight and fast
 *	Downloads are compressed to save bandwidth.
@@ -33,7 +33,7 @@ RedReader is an open source mobile app available in Android and IOS, known by �
 
 
 #### <a name="release"></a> Release Schedule
-RedReader is an open source project developed (mainly) by one contributor. Thus, when another contributor, developing new features or fixing bugs, has decided to do pull request, the decision to merge the new feature or bug fix, is left to the main contributor. There is not any particular Realese Schedule. Most of the time, new versions are released when previous bugs are fixed or new features added. The following two tables are data collected about the release of new versions.
+RedReader is an open source project developed (mainly) by one contributor. Thus, when another contributor, developing new features or fixing bugs, has decided to do a pull request, the decision to merge the new feature or bug fix is left to the main contributor. There is not any particular Release Schedule. Most of the time, new versions are released when previous bugs are fixed or new features are added. The following two tables are data collected about the release of new versions.
 
 ![Service Management](img/table1.PNG)
 _First Versions Released_
@@ -44,19 +44,19 @@ _Last Versions Released_
 
 
 
-<p>Regarding the first table, we found that initially, at the launch of the first version of this project, several changes were released. These changes were made in the same day and in the following days (multiple times) from the intitial version leading ultimately, to a more stable version due to the feedback given by the users. </p>
+<p>Regarding the first table, we found that initially, at the launch of the first version of this project, several changes were released. These changes were made in the same day and in the following days (multiple times) after the initial version, leading ultimately to a more stable version due to the feedback given by the users. </p>
 
-<p>Taking to account the second table, there were major improvements. There is no need due to the Alpha versions, to release new versions, everytime that a bug is fixed or a new feature is released. Alpha versions allow contributors to add new features without creating a new version of RedReader, instead, they create a new Alpha version with the new feature, in order to not change the actual version of the app several times. Users are invited to test the new Alpha versions, to try the new features and report bugs. Once the Alpha version is stable and big enough to create a new version, it is released.</p>
+<p>Taking into account the second table, there were major improvements. There is no need, due to the Alpha versions, to release new versions everytime that a bug is fixed or a new feature is released. Alpha versions allow contributors to add new features without creating a new version of RedReader. Instead, they create a new Alpha version with the new feature, in order to not change the actual version of the app several times. Users are invited to test the new Alpha versions, to try the new features and report bugs. Once the Alpha version is stable and big enough to create a new version, only then is it released.</p>
 
 
 ####Release Branches
 
-Redreader is an incremental development application that allows the developers to take advantage of what they have learned during the initial phases and, beyond that, receive updates in a way that the application remains attractive and innovative to the user.
+RedReader is an incremental development application that allows the developers to take advantage of what they have learned during the initial phases and, beyond that, receive updates in a way that the application remains attractive and innovative to the user.
 It's constantly releasing new versions. In the past, the developer tried to use branches for the development of the application, but was not successful, so he opted to develop in the master branch. The suggestions given by users and application bug fixes are developed in a  continuous and gradual way in the master branch.
 
 ####Release Cycle
 
-There doesn't seem to be a defined time of release for each new version of the application. Over the past year, the time intervals between major releases ranged from one to four months. If necessary, there may be a couple of minor updates between releases, mostly for bug fixes. Since there is only one main developer, the release cycle will ultimately depend on his code frequency and on the number of contributors actively helping during that time frame. 
+There doesn't seem to be a defined time of release for each new version of the application. Over the past year, the time intervals between major releases ranged from one to four months. If necessary, there may be a couple of minor updates between releases, mostly with bug fixes. Since there is only one main developer, the release cycle will ultimately depend on his code frequency and on the number of contributors actively helping during that time frame. 
 
 After a new version has been released and to avoid having to release a new one shortly after, any new implemented functionalities can be tested in the Alpha version by users and contributors alike.
 
@@ -83,7 +83,7 @@ RedReader was first [announced](https://www.reddit.com/r/Android/comments/1bskqz
 
 ####*"The most popular/useful ones go into the release"* 
 
-Like shown before, RedReader has a huge support from the reddit community with new suggestions for improvement. One day after the release of the app, the developer created a [list of the suggested to-dos](https://www.reddit.com/r/RedReader/comments/1buzdp/my_current_todo_list_20130407_please_check_this/). Pratically, almost all of the suggestions are accepted, except particular cases when the new features aren't pratical for the common use or in manners of particular preferences.
+Like shown before, RedReader has a huge support from the reddit community with new suggestions for improvement. One day after the release of the app, the developer created a [list of the suggested to-dos](https://www.reddit.com/r/RedReader/comments/1buzdp/my_current_todo_list_20130407_please_check_this/). Pratically, almost all of the suggestions are accepted, except in particular cases when the new features aren't pratical for the common use or in manners of particular preferences.
 
 #### Design and implementation
 
@@ -154,15 +154,15 @@ The agile software development manifesto is based on 12 main principles which we
  There's only one contributor most of the time and when there's a new one, he is doing his "work" on his own organization and preference, generally working on features and changes that he himself has proposed.
 
 12. **Regular adaptation to changing circumstance**
- 
- Refered in 1.
 
+ Referred in 1.
+ 
 ---
 
 ## Conclusion and Alternatives
 
 The way RedReader is being developed takes a lot of cues from the agile development principles. There is constant back and forth between developer and users, there is a quick response to change and development is geared towards prototyping (alpha versions), developers (main developer and others contributors) are self-organized and often self-sufficient prior to integration of their work.
 
-We therefore conclude that the developer could adopt a form of agile development with a prototyping approach to the development of new features and bug fix.
+We therefore conclude that the developer could adopt a form of agile development with a prototyping approach to the development of new features and bug fixes.
 
-One suggestion we have is to create a release cycle. Every new version should be release every month or every two months and it should be the release of a stable alpha version, big enough to avoid a huge number of new versions that look alike the old ones. This method allied with the agile development principles should give a better user experience and make easier to contribute to the project 
+One suggestion we have is to create a release cycle. A new version should be released every month or every two months and it would usually be the latest and most stable alpha version, big enough to avoid a huge number of new versions that look alike the old ones. This method allied with the agile development principles should give a better user experience and make easier to contribute to the project 
