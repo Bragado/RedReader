@@ -113,6 +113,8 @@ Sugestão: falar sobre o release das versões, que muitas vezes são antecipadas
 
 
 3. **Working software is delivered frequently (weeks rather than months)**
+Referring to the second table, the new versions don't come out every day to release a new feature or fix some bugs and that's due to the Alpha versions. 
+
 Sugestão: A tabela prova isso e a implementação das alpha versions também
 
 4. **Close, daily cooperation between business people and developers**
