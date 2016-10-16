@@ -113,7 +113,7 @@ Sugestão: falar sobre o release das versões, que muitas vezes são antecipadas
 
 
 3. **Working software is delivered frequently (weeks rather than months)**
-Referring to the second table, the new versions don't come out every day to release a new feature or fix some bugs and that's due to the Alpha versions. 
+Referring to the second table, the new versions don't come out every day to release a new feature or fix some bugs and that's due to the Alpha versions. After a new version has been released and to avoid having to release a new one shortly after, any new implemented functionalities can be tested in the Alpha version by users and contributors alike.
 
 Sugestão: A tabela prova isso e a implementação das alpha versions também
 
