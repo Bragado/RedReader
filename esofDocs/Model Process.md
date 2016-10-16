@@ -35,8 +35,8 @@ RedReader is an open source mobile app available in Android and IOS. Known by �
 ####Release Schedule
 RedReader is an open source project developed (most of all) by one contributor. When there is another contributor, doing some new features or fixing bugs, if he decided to do pull request, the main contributor decides if the new feature or bug fix should be merged. It doesn’t follow any particular Realese Schedule, most of the time, new versions appear when there’s some bugs to fix or new features to add. The following two tables are data collected about the appearance of new versions (the first versions and the last versions).
 
-![Service Management](img/table1.PNG)
-_First Versions Released_<a name="table1">
+![Service Management](img/table1.PNG)<a name="table1">
+_First Versions Released_
 
 ![Service Management](img/table2.PNG)
 _Last Versions Released_ 
