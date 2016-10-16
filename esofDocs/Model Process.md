@@ -159,7 +159,7 @@ The agile software development manifesto is based on 12 main principles which we
 
 ## Conclusion and Alternatives
 
-The way RedReader is being developed takes a lot of cues from the agile development principles. There is constant back and forth between developer and users, he responds quickly to change, development is geared towards prototyping alpha, developers (main developer and others contributors) are self-organized and often self-sufficient prior to integration of their work.
+The way RedReader is being developed takes a lot of cues from the agile development principles. There is constant back and forth between developer and users, he responds quickly to change, development is geared towards prototyping (alpha versions), developers (main developer and others contributors) are self-organized and often self-sufficient prior to integration of their work.
 
 We therefore conclude that the developer could adopt a form of agile development with a prototyping approach to the development of new features a bugs fix.
 
