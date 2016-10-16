@@ -107,9 +107,12 @@ Because of its transparent development, which allows users to see how developmen
 The agile software development manifesto is based on 12 main principles which we’ll now compare to what we have observed from *RedReader*’s development process:
 
 1. **Customer satisfaction by early and continuous delivery of useful software**
+Once in a while the latest release of the application has bugs, so the release of the next version has to be anticipated.
+
 Sugestão: falar sobre o release das versões, que muitas vezes são antecipadas para corrigir bugs 
 
 2. **Welcome changing requirements, even late in development**
+The users can be involved in all phases of the project.
 
 
 3. **Working software is delivered frequently (weeks rather than months)**
@@ -118,9 +121,14 @@ Referring to the second table, the new versions don't come out every day to rele
 Sugestão: A tabela prova isso e a implementação das alpha versions também
 
 4. **Close, daily cooperation between business people and developers**
+The project provides a forum to allow the communication between between business people and developers. 
+https://www.reddit.com/r/RedReader/
+
 Sugestão: o forum criado no reddit 
 
 5. **Projects are built around motivated individuals, who should be trusted**
+The application is a open source project, so all users can contribute to the improvement of the project. Sometimes are invited some developers to help.
+
 Sugestão: toda a gente é convidada a participar e muitas vezes desenvolvedores são convidados a ajudar (e ajudam) 
 
 6. **Face-to-face conversation is the best form of communication (co-location)**
