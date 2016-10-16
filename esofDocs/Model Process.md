@@ -155,6 +155,7 @@ The agile software development manifesto is based on 12 main principles which we
 
 12. **Regular adaptation to changing circumstance**
 
+ Refered in 1.
 ---
 
 ## Conclusion and Alternatives
