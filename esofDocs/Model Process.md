@@ -79,11 +79,11 @@ However, this looks like agile software development, and we talk more about that
 
 RedReader was first [announced](https://www.reddit.com/r/Android/comments/1bskqz/ive_just_released_an_open_source_client_for/) on reddit, one hour later, users started giving feedback. Some of the feedback was bug report but most of it was suggestions about new features and that was enough to launch a new version 3 hours later.
 
-###*"The most popular/useful ones go into the release"*
+####*"The most popular/useful ones go into the release"*
 
 Like showed before, RedReader had a huge support from reddit community with new suggestions for improvement. One day later after released the app, the developer start collection a [list of to-dos](https://www.reddit.com/r/RedReader/comments/1buzdp/my_current_todo_list_20130407_please_check_this/) suggested. Pratically, almost all of the suggestions are accepted, except particular cases were the new features aren't pratical for the common use or in manners of particular preferences.
 
-###*"The code gets merged in immediately  (continuous integration)"*
+####*"The code gets merged in immediately  (continuous integration)"*
 
 Back when the project was announced, every bug fix and every feature add, needed a new version of the app, not a version for each one but, to published the new features or bugs fixed, it had to exist a new version. The problem was that this situation was creating a huge number of versions released in short time (as you can see in [table1](#release). Nowadays, things are different, every bug fix and every new feature (almost every commit) gives origin to a new [Alpha](https://redreader.org/alpha/), an instable version that can be downloaded so users can try the new features and give feedback.    
 
