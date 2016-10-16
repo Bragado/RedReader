@@ -87,7 +87,9 @@ Like showed before, RedReader had a huge support from reddit community with new 
 
 #### Design and implementation
 
-(To be done)
+The project is developed with public code allowing users to collaborate in the development of the application, communicating with the developer through pull requests or even comment. The developer decides if the code done by volunteers should be merged. Besides, we can see where were made the changes, when and who has done it, which facilitates the collaboration on the project.
+The application has a clean interface, without announcements, where data are presented in a organized way. The main page is presented by topics in alphabetic order and the posts inside the topics are presented in a chronologic order (beginning with the recents). The application design makes the use of the application intuitive for the users.
+
 
 #### Validation
 ####*"The code gets merged in immediately  (continuous integration)"* 
@@ -107,36 +109,48 @@ Because of its transparent development, which allows users to see how developmen
 The agile software development manifesto is based on 12 main principles which we’ll now compare to what we have observed from *RedReader*’s development process:
 
 1. **Customer satisfaction by early and continuous delivery of useful software**
+ 
  Once in a while the latest release of the application has bugs, so the release of the next version has to be anticipated.
 
 2. **Welcome changing requirements, even late in development**
+ 
  The users can be involved in all phases of the project.
 
 3. **Working software is delivered frequently (weeks rather than months)**
+ 
  Referring to the second table, the new versions don't come out every day to release a new feature or fix some bugs and that's due to the Alpha versions. After a new version has been released and to avoid having to release a new one shortly after, any new implemented functionalities can be tested in the Alpha version by users and contributors alike.
 
 4. **Close, daily cooperation between business people and developers**
+ 
  The project provides a forum to allow the communication between between business people and developers. 
  https://www.reddit.com/r/RedReader/ . 
 
 5. **Projects are built around motivated individuals, who should be trusted**
+ 
  The application is a open source project, so all users can contribute to the improvement of the project. Sometimes are invited some developers to help.
 
 6. **Face-to-face conversation is the best form of communication (co-location)**
+ 
  In the case of Red Reader, as the team is too small not no need for communication have to be necessarily face to face.
 
 7. **Working software is the principal measure of progress**
+ 
  Since the work being done here is on a volunteer basis, working software is the only measure of success.
 
 8. **Sustainable development, able to maintain a constant pace**
+ 
  We have some doubts as to the main developers’s ability to maintain a constant pace due to the dependence on voluntary work or his own free time, despite he seeming very motivated. There is an effort towards a constant rhythm as evidenced by the evolution of the releases and the "alpha tecnic".
+ 
 9. **Continuous attention to technical excellence and good design**
+ 
  Some of the new alpha versions exist in order to keep code quality
 
 10. **Simplicity—the art of maximizing the amount of work not done—is essential**
+ 
  Since the "customer" is the one how suggests new features and most of the time there's only one developer, only what's needed is what's developed, as said by the developer, "The most popular/useful ones go into the release"
 
 11. **Self-organizing teams**
+ 
  There's only one contributor most of the time and when there's a new one, he is doing the his "work" on his own organization and preference, generally working on features and changes that he himself has proposed.
 
 12. **Regular adaptation to changing circumstance**
@@ -145,3 +159,4 @@ The agile software development manifesto is based on 12 main principles which we
 
 ## Conclusion and Alternatives
 
+The development process adopted by the development of RedReader is appropriate because this has a small team (one developer). Besides, the incremental development facilitates the identification and corretion of bugs between the software components. This allows the application to be developed steadily and with visible results for users, while at the same time that they also contribute, report bugs found and suggesting new features.
