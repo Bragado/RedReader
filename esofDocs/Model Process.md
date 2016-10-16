@@ -124,6 +124,8 @@ Sugestão: o forum criado no reddit
 Sugestão: toda a gente é convidada a participar e muitas vezes desenvolvedores são convidados a ajudar (e ajudam) 
 
 6. **Face-to-face conversation is the best form of communication (co-location)**
+In the case of Red Reader, as the team is too small not no need for communication have to be necessarily face to face.
+
 Sugestão: a equipa é demasiado pequena para este ponto
 
 7. **Working software is the principal measure of progress**
