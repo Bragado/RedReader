@@ -159,4 +159,8 @@ The agile software development manifesto is based on 12 main principles which we
 
 ## Conclusion and Alternatives
 
-The development process adopted by the development of RedReader is appropriate because it has a small team (one developer). Besides, the incremental development facilitates the identification and corretion of bugs between the software components. This allows the application to be developed steadily and with visible results for users, while at the same time allowing them to they also contribute, report bugs found and suggest new features.
+The way RedReader is being developed takes a lot of cues from the agile development principles. There is constant back and forth between developer and users, he responds quickly to change, development is geared towards prototyping alpha, developers (main developer and others contributors) are self-organized and often self-sufficient prior to integration of their work.
+
+We therefore conclude that the developer could adopt a form of agile development with a prototyping approach to the development of new features a bugs fix.
+
+One suggest we have is to create a release cycle. Every new version should be release every month or every two months and it should be the release of stable alpha versions and big enough to avoid a huge number of new versions that looks alike the old ones. This method allied with the agile development principles should give a better user experience and make easier to contribute to the project 
