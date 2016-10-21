@@ -15,14 +15,14 @@
   2. [Purpose and Scope](#)
 2. [Overall Description and Use Cases](#)    
 4. [Non-functional Requirements](#)
- 1. item 1
- 2. item 2
- 3. item 3
-5. [Functional Requirements]
- 1. item 1	
- 2. item 2
- 3. item 3
-6. Domain Model
+ 1. [item 1](#)  
+ 2. [item 2](#)  
+ 3. [item 3](#)  
+5. [Functional Requirements](#)  
+ 1. [item 1](#)  
+ 2. [item 2](#)  
+ 3. [item 3](#)  
+6. [Domain Model](#)  
 
 ---
 
