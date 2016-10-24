@@ -1,4 +1,4 @@
-## High Level Requirement Specification for GeoServer
+## High Level Requirement Specification for RedReader
 
 ## Authors
 
