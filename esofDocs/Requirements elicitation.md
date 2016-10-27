@@ -37,6 +37,24 @@
 
 ###Overall Description and Use Cases
 
+####Stakeholders
+<p align="center">
+  <img src="https://github.com/Bragado/RedReader/blob/master/esofDocs/img/stakeholders.PNG" alt="Project's Stakeholders"/>
+</p>
+
+| Stakeholder      | Description                                                                                               |         
+| ---------------- | --------------------------------------------------------------------------------------------------------- | 
+| User             | Unregistered user: can view the post and change the application settings                                  | 
+| Registered User  | Authenticated user that has an account on the system and a profile. Can comment, vote and send messages.  |  
+| Reddit           | Reddit.com : the online repository of all the posts presented in this app       						   |     
+
+
+
+
+
+
+
+
 ---
 
 ###Non-functional Requirements
