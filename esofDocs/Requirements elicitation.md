@@ -39,7 +39,7 @@
 
 ####Stakeholders
 <p align="center">
-  <img src="https://github.com/Bragado/RedReader/blob/master/esofDocs/img/stakeholders.PNG" alt="Project's Stakeholders"/>
+  <img src="https://github.com/Bragado/RedReader/blob/master/esofDocs/img/stakeholders3.PNG" alt="Project's Stakeholders"/>
 </p>
 
 | Identifier       | Description                                                                                               |         
