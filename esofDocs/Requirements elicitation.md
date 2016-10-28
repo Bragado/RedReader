@@ -57,7 +57,7 @@
 | UC02 | Sort Posts     | As a *User* I wanna be able to see subreddits in different orders (new, hot, top, rising, controversial) so that I can find new subreddits.|
 | UC03 | Open Posts     | As a *User* I wanna be able to open every subreddit on my app in order to read everything that is in reddit. |
 | UC04 | Youtube Player | As a *User* I wanna be able to be forward to youtube when watching a youtube vídeo in order to not lose their features|
-| UC05 | Comments       | As a *User* I wanna be able to read others users comments in order to see what they think about it	       |
+| UC05 | Read Comments  | As a *User* I wanna be able to read others users comments in order to see what they think about it	       |
 | UC06 | Refresh        | As a *User* I wanna have a refresh button in order to keep me updated	       |
 | UC07 | Search         | As a *User* I wanna have a search field in order to find what I like the most	       |
 | UC08 | Categories     | As a *User* I wanna have categories in order to filtrate the subreddits I like the most	       |
@@ -104,24 +104,16 @@
 | UC49 |      | 	       |
 | UC50 |      | 	       |
 
+####Use Case Diagram
+<p align="center">
+  <img src="https://github.com/Bragado/RedReader/blob/master/esofDocs/img/use%20case%20diagram.PNG" alt="Use Case Diagram"/>
+</p>
 
 
 
 ---
 
 ###Non-functional Requirements
-
-####Item 1
-
-####Item 2
-
-####Item 3
-
-####Item 4
-
----
-
-###Functional Requirements
 
 ####Item 1
 
