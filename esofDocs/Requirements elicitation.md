@@ -26,11 +26,11 @@
 
 
 #### <a name="context"></a> Context
-RedReader is an open source mobile app available for Android and iOS devices. Described as an “unofficial, open source client for reddit”, it has already over 50.000 downloads on the PlayStore.
+RedReader is an open source mobile app available for Android and iOS devices. Described as an “unofficial, open source client for reddit”, it already has over 50.000 downloads on the PlayStore.
 #### <a name="PS"></a> Purpose and Scope
-This document intends to represent a high level view of RedReader, through its features, interfaces and some non-functional requirements considered essential. Some of the content discussed in this report was studied with more detail on the [previous report](https://github.com/Bragado/RedReader/blob/master/esofDocs/Model%20Process.md). 
+This document intends to represent a high level view of RedReader, through its features, interfaces and some non-functional requirements considered essential. Some of the content discussed in this report was studied with more detail in the [previous report](https://github.com/Bragado/RedReader/blob/master/esofDocs/Model%20Process.md). 
 #### <a name="reqEli"></a> Requirements Elicitation
-As previously stated in the [previous report](https://github.com/Bragado/RedReader/blob/master/esofDocs/Model%20Process.md), RedReader does not have a specific model for requirements elicitation, so each release goes as follow:
+As stated in the [previous report](https://github.com/Bragado/RedReader/blob/master/esofDocs/Model%20Process.md), RedReader does not have a specific model for requirements elicitation, so each release goes as follow:
 * People continuously suggest new features.
 * The developer pick out the most popular/useful ones to go into the release, and implements them over the course of a few months.
 * The code gets merged in immediately (continuous integration), and an alpha version gets built for nearly every commit.
@@ -49,8 +49,9 @@ As previously stated in the [previous report](https://github.com/Bragado/RedRead
 
 | Identifier       | Description                                                                                               |         
 | ---------------- | --------------------------------------------------------------------------------------------------------- | 
-| User             | Unregistered user: Has viewer access to the posts and edit capabilities to the application settings                                  | 
-| Registered User  | Authenticated user: Posesses an account on the system and a personal profile. Can comment, vote and send messages.  |  
+| User             | Unregistered user: Has viewer access to the posts and edit capabilities to the application settings.| 
+| Registered User  | Authenticated user: Possesses an account on the system and a personal profile. Can comment, vote and send messages.|
+
 
 
 ####Use Cases
@@ -113,14 +114,14 @@ As previously stated in the [previous report](https://github.com/Bragado/RedRead
 ### <a name="NFReq"></a> Non-functional Requirements
 
 ####Software & Hardware 
-* The app should be compatible with all Android devices with a required minimum of the 4.0 version
+* The app should be compatible with all Android devices with a required minimum version of 4.0
 * The system should be developed in Java
  
 ####Maintainability
 * The code should be well structured in order to appeal to contributions from the community
  
 ####Security & Privacy
-* The system should keep users privacy, the user should decide if RedReader should access or not his private information on Reddit
+* The system should protect users privacy, the user should decide if RedReader should access or not his private information on Reddit
  
 ####Performance
 * The system should refresh in no more than 2.5 seconds
@@ -137,7 +138,7 @@ As previously stated in the [previous report](https://github.com/Bragado/RedRead
 ---
 
 ### <a name="FReq"></a> Functional Requirements
-The following functional requirements describes the major services that are available for RedReader's users
+The following functional requirements describe the major services that are available for RedReader's users
 * Free and Open Source - no ads/tracking.
 * Swipe posts and comments left and right to perform customizable actions, such as upvote/downvote, or save/hide.
 * Advanced cache management - automatically stores past versions of posts and comments.
@@ -168,17 +169,17 @@ The domain model is a representation of meaningful real-world concepts pertinent
 
 #### Requirements specification
 
-After our analisis, there is no specific document that provides the future requirements that are importante to RedReader. In a more organized situation, this should be the moment to present a formal document with all the requirements that should appear in the near future. However, in a project like RedReader there is an enormous diversity of new requirements. Therefore, a document like the one we stated previously does not feel apropriate at the time and possibly it will never will. We hereby, suggest to parcel out the requirements in groups and create long/short term  objectives to implement them. Every new feature required could be added to those groups.
+After our analysis, there is no specific document that provides the future requirements that are important to RedReader. In a more organized situation, this should be the moment to present a formal document with all the requirements that should appear in the near future. However, in a project like RedReader there is an enormous diversity of new requirements. Therefore, a document like the one previously stated does not feel appropriate at the time and possibly never will. We hereby suggest to parcel out the requirements in groups and create long/short term objectives to implement them. Every new feature required could be added to those groups.
 
 #### Requirements validation
 
-The process used in RedReader is different with what we accustomed to see in the software market. In this project, like most of open source projects, all actors suggest new features but it is the main contributor who decides which ones should be implemented. The main contributor accepts most of all the new suggestions creating therefore, a possible problem: there’s a huge number of requirements to be implemented and the easiest ones are the first to be implemented. With our previous suggestions it would be better to prioritize the requirements.<br>
+The process used in RedReader is different with what we are used to see in the software market. In this project, like most of open source projects, all actors suggest new features but it is the main contributor who decides which ones should be implemented. The main contributor accepts most of all the new suggestions, creating, therefore, a possible problem: there’s a huge number of requirements to be implemented and the easiest ones are the first to be implemented. With our previous suggestions it would be better to prioritize the requirements.<br>
 RedReader uses [Travis CI](https://travis-ci.org/QuantumBadger/RedReader) in order to add, without conflicts, code from others contributors. The “passing” of the requirements on the tests of Travis means that the requirement will be accepted, even if it was not a priority. That will create a disorder in the requirements specification but it is something that has to be done in order to embrace contributions.<br>
-GitHub offers tags for the issues in order to classificate them in different categories, contributing to a better organization, something that could be more explored in this project. In our opinion, a better organization and tagging of the issues will facilitate a better validation process and prioritization.<br>
+GitHub offers tags for the issues in order to sort them in different categories, contributing to a better organization, something that could be more explored in this project. In our opinion, a better organization and tagging of the issues will facilitate a better validation process and prioritization.<br>
 
 #### Problems Found
-The process of requirements specification and validation of this project is far from perfection. There is so much to do in order to improve. Previously, we referenced some concerns that should be taken to account in order to improve it. we hereby describe some problems resulting from the non-compliance: The perfect example of a problem due to the lack of organization and priorities is the search field. Users asked for this during 2 years and now (after the implementation) users often create issues about the search field because they think it was not implemented and that is due to the lack of organization. The project has a poor usability when new features come out and this is an example of that. The search field is really important on projects like this one and should be one of the “pop out” features. The same happens with the feature of creating new posts. To create new posts in RedReader users have to open a post, access to the settings and choose to create a new post. To leave a comment, users have to press a comment for a second and choose to reply. This is a bad user interface and at this moment, changes will be difficult and would consume a huge amount of effort.<br> 
+The process of requirements specification and validation of this project is far from perfect. There is so much to do in order to improve. Previously, we referenced some concerns that should be taken into account in order to improve it. We hereby describe some problems resulting from the non-compliance: the perfect example of a problem due to the lack of organization and priorities is the search field. Users asked for this during 2 years and now (after the implementation) users often create issues about the search field because they think it was not implemented and that is due to the lack of organization. The project has a poor usability when new features come out and this is an example of that. The search field is really important on projects like this one and should be one of the “pop out” features. The same happens with the feature of creating new posts. To create new posts in RedReader users have to open a post, access to the settings and choose to create a new post. To leave a comment, users have to press a comment for a second and choose to reply. This is a bad user interface and at this moment, changes will be difficult and would consume a huge amount of effort.<br> 
 
 #### Overall conclusions
 
-We conclude that, a better requirements elicitation should be developed in order to facilitate the developers work. Requirements should be grouped and receive a priority.This priority should not be based on how easy it is to implement but instead,  based on how much that group of requirements contributes to the “long term” objective.
+We conclude that a better requirements elicitation should be developed in order to facilitate the developers work. Requirements should be grouped and receive a priority. This priority should not be based on how easy it is to implement but, instead, based on how much that group of requirements contributes to the “long term” objective.
