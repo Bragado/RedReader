@@ -119,8 +119,8 @@ As said in [previous report](https://github.com/Bragado/RedReader/blob/master/es
 ### <a name="NFReq"></a> Non-functional Requirements
 
 ####Software & Hardware 
-* In order to use RedReader, the user needs an android smartphone with minimum version 4.0
-* The system should be developed in java
+* The app should be compatible with all Android devices with a minimum version of 4.0
+* The system should be developed in Java
  
 ####Maintainability
 * The code should be well structured in order to appeal to contributions from the community
