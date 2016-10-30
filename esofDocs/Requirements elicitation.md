@@ -163,6 +163,11 @@ One of the most important functional requirements that only exists for a *regist
 
 The domain model is a representation of meaningful real-world concepts pertinent to the domain that need to be modeled in software. 
 
+<p align="center">
+  <img src="https://github.com/Bragado/RedReader/blob/master/esofDocs/img/DomainModel.png" alt="Domain Model"/>
+</p>
+
+
 ### <a name="conclusions"></a> Conclusions
 
 
