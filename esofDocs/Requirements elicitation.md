@@ -119,26 +119,26 @@ As said in [previous report](https://github.com/Bragado/RedReader/blob/master/es
 ### <a name="NFReq"></a> Non-functional Requirements
 
 ####Software & Hardware 
-In order to use RedReader, the user needs an android smartphone with minimum version 4.0
-The system should be devevloped in java
+* In order to use RedReader, the user needs an android smartphone with minimum version 4.0
+* The system should be developed in java
  
 ####Maintainability
-The code should be well structured in order to appeal contributions from the community
+* The code should be well structured in order to appeal to contributions from the community
  
 ####Security & Privacy
-The system should keep users privacy thus, the user is the one who decides if redreader should access is private information on reddit
+* The system should keep users privacy, the user is the one who decides if RedReader should access or not his private information on Reddit
  
 ####Performance
-The system should refresh in no more than 2.5 secunds
-The posts shoud be open in no more than 3 secunds
-Images/comments should be open instantaniously (using techniches such as pre-caching)
+* The system should refresh in no more than 2.5 seconds
+* The posts shoud be open in no more than 3 seconds
+* Images/comments should be open instantly (using techniques such as pre-caching)
 
 ####Availability
-The system should be available all the time [reddit is online]
-The system should be free and adds free for anyone who wants to use it
+* The system should be available all the time [as long as Reddit is online]
+* The system should be free and ads free for anyone who wants to use it
 
 ####Portability
-The system should embrace the different features of the different smartphones (such us LG spliting window)
+* The system should embrace the different features of the different smartphones (such us LG spliting window)
 ---
 
 ### <a name="FReq"></a> Functional Requirements
