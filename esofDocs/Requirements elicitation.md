@@ -139,6 +139,7 @@ As said in [previous report](https://github.com/Bragado/RedReader/blob/master/es
 
 ####Portability
 * The system should embrace the different features of the different smartphones (such us LG spliting window)
+
 ---
 
 ### <a name="FReq"></a> Functional Requirements
@@ -161,3 +162,21 @@ One of the most important functional requirements that only exists for a *regist
 ### <a name="dm"></a> Domain Model
 
 The domain model is a representation of meaningful real-world concepts pertinent to the domain that need to be modeled in software. 
+
+### <a name="conclusions"></a> Conclusions
+
+
+#### Requirements specification
+
+After our analise, there's no specific document that shows the next requirements that are importante to redReader. In a more organized situation, this should be the time that we presented a formal document with all the requirements that should come up next. However, in a project like redreader there’s a huge diversity of new requirements therefore, a document like the one we refered does not make sence. Our suggestion is to separete the requirements in groups and create long/short term  objectives to implemente them. Every new feature required could be added to those groups.
+
+#### Requirements validation
+
+The process used in RedReader is different with what we are used to see in the software market. In this project, like most of open source projects, skateholders suggest new features but it’s the main contributor who decides which ones should be implemented.  The main contributor accepts most of all the new suggestions and that can create a problem: there’s a huge number of requirements to be implemented and the easiest ones are the first to be implemented. With our previous suggestions it would be better to prioritize the requirements.<br>
+Red Reader uses [Travis CI](https://travis-ci.org/QuantumBadger/RedReader) in order to add, without conflitos, code from others contributors. The “passing” of the requirements on the tests of Travis means that the requirement will be accepted, even if it was not a priority. That will create a desorder in the requirements specification but is something that has to be done in order to embrace contributions.<br>
+GitHub offers tags for the issues in order to classificate them in different categories, contributing to a better organization, something that could be more explored in this project. In our opinion, a better organization and tagging of the issues will facilitate a better validation process and prioritization.
+
+#### Overall conclusions
+
+The process of requirements specification and validation of this project is far from perfect. There’s so much to do in order to improve. Before, we referenced some cautions that should be taking in care in order to improve it now, we will describe some problems of not doing it: The perfect example of a problema due to the lack of organization and priorities is the search field. Users ask for it during 2 years and now (that is implemented) users often create issues about the search field because they think it was not implemented and that’s due to the lack of organization. The project has a poor usability when new features come out and this is an example of that. The search field is really importante on projects like this one and should be one of the “pop out” features. The same happens with the feature of creating new posts. To create new posts in redreader users have to open a post, access to the settings and choose to create a new post. To leave a comment, users have to press a comment for a second and choose to reply. This is a bad user interface and at this moment, changes will be difficult and would consume a huge amount of effort.<br> 
+Therefore, we conclude that, a better requirements elicitation should be desenvolved in order to facilitate the developers work. Requirements should be grouped and receive a priority, not a priority based on how easy it is to implemente but, a priority based on how much that group of requiriments contribute to a “long term” objective.
