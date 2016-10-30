@@ -97,7 +97,7 @@ As said in [previous report](https://github.com/Bragado/RedReader/blob/master/es
 | UC38 | Search Comments | As a *User* I want to be able to search comments in order to re-read a comment	       |
 | UC39 | Copy URL        | As a *User* I want to be able to copy comment URL in order to forward it to other users	       |
 | UC40 | Split Window support | As a *User* I want to be able to have “split window support” in other to open other applications	       |
-| UC41 | Hidden Posts      | As a *Registered User* I want to able to hide a post in order to remove them from my feed.     |
+| UC41 | Hide Posts      | As a *Registered User* I want to able to hide a post in order to remove them from my feed.     |
 | UC42 |      | 	       |
 | UC43 |      | 	       |
 | UC44 |      | 	       |
@@ -143,7 +143,7 @@ The following functional requirements describes the major services that are avai
 * Night mode 
 * Translations for some languages
 
-One of the most importante functional requirements that doesn't exist in RedReader is the ability to make new posts or post comments.
+One of the most important functional requirements that only exists for a *registered user* is the ability to make new posts or post comments.
 
 ---
 ### <a name="dm"></a> Domain Model
