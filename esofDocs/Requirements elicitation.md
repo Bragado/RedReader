@@ -60,44 +60,44 @@ As said in [previous report](https://github.com/Bragado/RedReader/blob/master/es
 | UC02 | All Subreddits	| As a *User* I want to be able to see the trending posts from all the subreddits.|
 | UC03 | Sort Posts     | As a *User* I want to be able to see posts in different orders (New, Hot, Top, Rising, Controversial) so that I can find new posts.|
 | UC04 | Open Posts     | As a *User* I want to be able to open every post on my app in order to read everything that is in Reddit. |
-| UC05 | Youtube Player | As a *User* I want to be able to be forwarded to youtube when watching a youtube vídeo in order to not lose its features.|
-| UC06 | Read Comments  | As a *User* I want to be able to read other users' comments in order to see what they think about it.|
+| UC05 | Youtube Player | As a *User* I want to be able to be forwarded to youtube when watching a youtube vídeo in order not to lose its features.|
+| UC06 | Read Comments  | As a *User* I want to be able to read other users' comments in order to see what they think about a certain post.|
 | UC07 | Refresh        | As a *User* I want to have a refresh button in order to keep me updated.|
 | UC08 | Search         | As a *User* I want to have a search field in order to find what I like the most.|
-| UC09 | Categories     | As a *User* I want to have categories in order to filtrate the subreddits I like the most.|
-| UC10 | Past Versions  | As a *User* I want to be able to see “past versions” [before I touched the refresh button] in order to retrieve a subreddit watched.|
-| UC11 | Login          | As a *User* I want to be able to add a reddit account in order to have the same experience that a *Registered User* has.|
-| UC12 | Theme          | As a *User* I want to be able to change the theme presented by the app in order to turn my experience more comfortable.|
-| UC13 | Nav Bar Color  | As a *User* I want to be able to change the nav bar color in order to turn my experience more comfortable.|
-| UC14 | Different Languages | As a *User* I want to be able to have different languages in order to choose the one I feel more comfortable.|
-| UC15 | Posts Font Scale | As a *User* I want to be able to change the “Posts Font Scale” in order to turn my experience more comfortable	       |
-| UC16 | Inbox Font Scale | As a *User* I want to be able to change the “Inbox Font Scale” in order to turn my experience more comfortable	       |
-| UC17 | Thumbnails      | As a *User* I want to be able to deal with “thumbnails” in order to save bandwidth|
-| UC18 | Image Viewer    | As a *User* I want to be able to change the image Viewer [when watching images] in order to see the images where I like the most 	       |
-| UC19 | GIF Viewer      | As a *User* I want to be able to change the GIF Viewer [when watching GIF’s] in order to see the images where I like the most 	       |
-| UC20 | Video Viewer      | As a *User* I want to be able to change the Video Viewer [when watching videos] in order to see the videos where I like the most 	       |
-| UC21 | Album Viewer    | As a *User* I want to be able to change the Album Viewer [when watching albums] in order to see the images where I like the most	       |
-| UC22 | Gallery Swipe Length | As a *User* I want to be able to change the Gallery Swipe Length in order to chooge the best length that matches my smartphone 	       |
-| UC23 | Sorting         | As a *User* I want to be able to choose the default sort for the different things (sush as posts, comments, etc) in order to have my preferences as default 	       |
-| UC24 | Post Actions    | As a *User* I want to be able to choose different actions when I fling a post left/right in order to create a shortcuts to my actions 	       |
-| UC25 | Comments settings | As a *User* I want to be able to change the settings of the comments in order to turn my experience more comfortable	       |
-| UC26 | Cache Storage   | As a *User* I want to be able to change the cache storage location in order full control of my application data	       |
-| UC27 | Precache Images | As a *User* I want to be able to precache Images in order to increase the performance of my application	       |
-| UC28 | Cache storage duration | As a *User* I want to be able to control the duration of the cache storage in order to free it 	       |
-| UC29 | TOR             | As a *User* I want to be able to use TOR in order to have a better user experience       |
-| UC30 | Profile         | As a *Registered User* I want to be able to see my profile in order to view comments or send messages	       |
-| UC31 | Inbox           | As a *Registered User* I want to be able to see my inbox in order to respond to other registered users	       |
-| UC32 | Save Posts      | As a *Registered User* I want to be able to save posts and a have a folder to them in order to watch them again later	       |
-| UC33 | Upvote/Downvote | As a *Registered User* I want to be able to upvote/downvote posts in order to avaliate them	       |
-| UC34 | Menus Settings  | As a *User* I want to be able to change what I see on my app’s menus in order to add/remove shortcuts 	       |
-| UC35 | Upvote Folder   | As a *Registered User* I want to be able to see the post I upvoted in order to see them again	       |
-| UC36 | Leave a comment | As a *Registered User* I want to be able to leave a comment in order to show what a think about a particulary post 	       |
-| UC37 | Up/DownVote a Comment | As a *Registered user* I want to be able to upvote/downvote comments in order to avaliate them	       |
-| UC38 | Nav Bar         | As a *User* I want to be able to have a nav bar in order to have all the shortcuts I need	       |
-| UC39 | Search Comments | As a *User* I want to be able to search comments in order to re-read a comment	       |
-| UC40 | Copy URL        | As a *User* I want to be able to copy comment URL in order to forward it to other users	       |
-| UC41 | Split Window support | As a *User* I want to be able to have “split window support” in other to open other applications	       |
-| UC42 | Hide Posts      | As a *Registered User* I want to able to hide a post in order to remove them from my feed.     |
+| UC09 | Categories     | As a *User* I want to have categories in order to filter the subreddits I like the most.|
+| UC10 | Past Versions  | As a *User* I want to be able to see “past versions” [before I touched the refresh button] in order to retrieve cached subreddit versions.|
+| UC11 | Login          | As a *User* I want to be able to add a Reddit account in order to have the same experience that a *Registered User* has.|
+| UC12 | Theme          | As a *User* I want to be able to change the theme presented by the app in order to make my experience more enjoyable.|
+| UC13 | Nav Bar Color  | As a *User* I want to be able to change the navigation bar color in order to make my experience more comfortable.|
+| UC14 | Different Languages | As a *User* I want to be able to have different languages in order to choose the one I feel more comfortable with.|
+| UC15 | Posts Font Scale | As a *User* I want to be able to change the “Posts Font Scale” in order to make my experience more comfortable.|
+| UC16 | Inbox Font Scale | As a *User* I want to be able to change the “Inbox Font Scale” in order to make my experience more comfortable.|
+| UC17 | Thumbnails      | As a *User* I want to be able to enable/disable “thumbnails” in order to save bandwidth.|
+| UC18 | Image Viewer    | As a *User* I want to be able to change the Image Viewer [when watching images] in order to see the images where I like the most.|
+| UC19 | GIF Viewer      | As a *User* I want to be able to change the GIF Viewer [when watching GIF’s] in order to see the images where I like the most.|
+| UC20 | Video Viewer      | As a *User* I want to be able to change the Video Viewer [when watching videos] in order to see the videos where I like the most.|
+| UC21 | Album Viewer    | As a *User* I want to be able to change the Album Viewer [when watching albums] in order to see the images where I like the most.|
+| UC22 | Gallery Swipe Length | As a *User* I want to be able to change the Gallery Swipe Length in order to choose the best length that matches my smartphone.|
+| UC23 | Sorting         | As a *User* I want to be able to choose the default sort for the different things (sush as posts, comments, etc) in order to have my preferences as default.|
+| UC24 | Post Actions    | As a *User* I want to be able to choose different actions when I fling a post left/right in order to create shortcuts for my actions.|
+| UC25 | Comments settings | As a *User* I want to be able to change the settings of the comments in order to make my experience more comfortable.|
+| UC26 | Cache Storage   | As a *User* I want to be able to change the cache storage location in order to have full control over my application data.|
+| UC27 | Precache Images | As a *User* I want to be able to precache Images in order to increase the performance of my application.|
+| UC28 | Cache storage duration | As a *User* I want to be able to change the duration of the cache storage in order to control the memory used.|
+| UC29 | TOR             | As a *User* I want to be able to use TOR in order to protect my privacy.|
+| UC30 | Profile         | As a *Registered User* I want to be able to see my profile in order to view comments or send messages.|
+| UC31 | Inbox           | As a *Registered User* I want to be able to see my inbox in order to respond to other registered users.|
+| UC32 | Save Posts      | As a *Registered User* I want to be able to save posts and have a folder to them in order to view them again later.|
+| UC33 | Upvote/Downvote Posts | As a *Registered User* I want to be able to upvote/downvote posts in order to rate them.|
+| UC34 | Menu Settings  | As a *User* I want to be able to change what I see on my app’s menus in order to add/remove shortcuts.|
+| UC35 | Upvote Folder   | As a *Registered User* I want to be able to see the posts I upvoted in order to view them again later.|
+| UC36 | Leave a comment | As a *Registered User* I want to be able to leave a comment in order to show what I think about a particular post.|
+| UC37 | Upvote/Downvote Comments | As a *Registered user* I want to be able to upvote/downvote comments in order to rate them.|
+| UC38 | Nav Bar         | As a *User* I want to be able to have a navigation bar in order to have all the shortcuts I need.|
+| UC39 | Search Comments | As a *User* I want to be able to search comments in order to find a specific comment.|
+| UC40 | Copy URL        | As a *User* I want to be able to copy a comment's URL in order to forward it to other users.|
+| UC41 | Split Window support | As a *User* I want to be able to have “split window support” in other to open other applications.|
+| UC42 | Hide Posts      | As a *Registered User* I want to able to hide a post in order to remove it from my feed.|
 | UC43 |      | 	       |
 | UC44 |      | 	       |
 | UC45 |      | 	       |
@@ -118,27 +118,13 @@ As said in [previous report](https://github.com/Bragado/RedReader/blob/master/es
 
 ### <a name="NFReq"></a> Non-functional Requirements
 
-####Software & Hardware 
-* In order to use RedReader, the user needs an android smartphone with minimum version 4.0
-* The system should be devevloped in java
+####Item 1
 
-####Maintainability
-* The code should be well structured in order to appeal contributions from the community
+####Item 2
 
-####Security & Privacy
-* The system should keep users privacy thus, the user is the one who decides if redreader should access is private information on reddit
+####Item 3
 
-####Performance
-* The system should refresh in no more than 2.5 secunds
-* The posts shoud be open in no more than 3 secunds
-* Images/comments should be open instantaniously (using techniches such as pre-caching)
-
-####Availability
-* The system should be available all the time [reddit is online]
-* The system should be free and adds free for anyone who wants to use it
-
-####Portability
-* The system should embrace the different features of the different smartphones (such us LG spliting window)
+####Item 4
 
 ---
 
