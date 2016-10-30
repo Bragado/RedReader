@@ -10,32 +10,36 @@
 ---
 
 ### Table of Contents
-1. [Introduction](#)
-  1. [Context](#)
-  2. [Purpose and Scope](#)
-2. [Overall Description and Use Cases](#)    
-4. [Non-functional Requirements](#)
- 1. [item 1](#)  
- 2. [item 2](#)  
- 3. [item 3](#)  
-5. [Functional Requirements](#)  
- 1. [item 1](#)  
- 2. [item 2](#)  
- 3. [item 3](#)  
-6. [Domain Model](#)  
+1. [Introduction](#intro)
+  1. [Context](#context)
+  2. [Purpose and Scope](#PS)
+  3. [Requirements Elicitation](#reqEli)
+2. [Overall Description and Use Cases](#useCase)    
+4. [Non-functional Requirements](#NFReq)
+5. [Functional Requirements](#FReq)  
+6. [Domain Model](#dm)  
 
 ---
 
-###Introduction
+### <a name="intro"></a> Introduction
 
 
-####Context
-
-####Purpose and Scope
+#### <a name="context"></a> Context
+RedReader is an open source mobile app available for Android and iOS devices. Described as an “unofficial, open source client for reddit”, it already has over 50.000 downloads on the PlayStore.
+#### <a name="PS"></a> Purpose and Scope
+This document intends to represent a high level view of RedReader, through its features, interfaces and some non-functional requirements considered essential. Some of the content discuss in this report was studied with more detail on [previous report](https://github.com/Bragado/RedReader/blob/master/esofDocs/Model%20Process.md). 
+#### <a name="reqEli"></a> Requirements Elicitation
+As said in [previous report](https://github.com/Bragado/RedReader/blob/master/esofDocs/Model%20Process.md), RedReader does not have a specific model for requirements elicitation, so each release pretty much works like this:
+* People continuously suggest new features.
+* The developer pick out the most popular/useful ones to go into the release, and implements them over the course of a few months.
+* The code gets merged in immediately (continuous integration), and an alpha version gets built for nearly every commit.
+* If other contributors submit pull requests during that time, the main developer reviews them and they get merged in.
+* Once all that is promised is done, he test all the major functionalities on various platforms.
+* Then, after a few days (to wait for alpha bug reports to come in) there is a release.
 
 ---
 
-###Overall Description and Use Cases
+### <a name="useCase"></a> Overall Description and Use Cases
 
 ####Stakeholders
 <p align="center">
@@ -49,7 +53,7 @@
 | Reddit           | Reddit.com : the online repository of all the posts presented in this app       						   |     
 
 
-####User Cases
+####Use Cases
 
 |      |Name            | Description                                                                                                | 
 | ---- | -------------- | ---------------------------------------------------------------------------------------------------------- |
@@ -113,7 +117,7 @@
 
 ---
 
-###Non-functional Requirements
+### <a name="NFReq"></a> Non-functional Requirements
 
 ####Item 1
 
@@ -125,4 +129,19 @@
 
 ---
 
-###Domain Model
+### <a name="FReq"></a> Functional Requirements
+The following functional requirements describes the major services that are available for RedReader's users
+* Free and Open Source - no ads/tracking.
+* Swipe posts and comments left and right to perform customizable actions, such as upvote/downvote, or save/hide.
+* Advanced cache management - automatically stores past versions of posts and comments.
+* Support for multiple accounts.
+* Two-column tablet mode 
+* Image precaching 
+* Built in image viewer, and GIF player.
+* Support for imgur albums and gifv files
+* Compression
+* Night mode 
+* Translations for some languages
+
+---
+### <a name="dm"></a> Domain Model
