@@ -50,7 +50,6 @@ As said in [previous report](https://github.com/Bragado/RedReader/blob/master/es
 | ---------------- | --------------------------------------------------------------------------------------------------------- | 
 | User             | Unregistered user: can view the post and change the application settings                                  | 
 | Registered User  | Authenticated user that has an account on the system and a profile. Can comment, vote and send messages.  |  
-| Reddit           | Reddit.com : the online repository of all the posts presented in this app       						   |     
 
 
 ####Use Cases
