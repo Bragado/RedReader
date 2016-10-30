@@ -143,5 +143,6 @@ The following functional requirements describes the major services that are avai
 * Night mode 
 * Translations for some languages
 
+One of the most importante functional requirements that doesn't exist in RedReader is the ability to make new posts or post comments.
 ---
 ### <a name="dm"></a> Domain Model
