@@ -147,3 +147,5 @@ One of the most important functional requirements that only exists for a *regist
 
 ---
 ### <a name="dm"></a> Domain Model
+
+The domain model is a representation of meaningful real-world concepts pertinent to the domain that need to be modeled in software. 
