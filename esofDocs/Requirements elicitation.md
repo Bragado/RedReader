@@ -98,14 +98,7 @@ As said in [previous report](https://github.com/Bragado/RedReader/blob/master/es
 | UC40 | Copy URL        | As a *User* I want to be able to copy a comment's URL in order to forward it to other users.|
 | UC41 | Split Window support | As a *User* I want to be able to have “split window support” in other to open other applications.|
 | UC42 | Hide Posts      | As a *Registered User* I want to able to hide a post in order to remove it from my feed.|
-| UC43 |      | 	       |
-| UC44 |      | 	       |
-| UC45 |      | 	       |
-| UC46 |      | 	       |
-| UC47 |      | 	       |
-| UC48 |      | 	       |
-| UC49 |      | 	       |
-| UC50 |      | 	       |
+
 
 ####Use Case Diagram
 <p align="center">
