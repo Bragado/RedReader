@@ -97,7 +97,7 @@ As said in [previous report](https://github.com/Bragado/RedReader/blob/master/es
 | UC38 | Search Comments | As a *User* I want to be able to search comments in order to re-read a comment	       |
 | UC39 | Copy URL        | As a *User* I want to be able to copy comment URL in order to forward it to other users	       |
 | UC40 | Split Window support | As a *User* I want to be able to have “split window support” in other to open other applications	       |
-| UC41 |      | 	       |
+| UC41 | Hidden Posts      | As a *Registered User* I want to able to hide a post in order to remove them from my feed.     |
 | UC42 |      | 	       |
 | UC43 |      | 	       |
 | UC44 |      | 	       |
