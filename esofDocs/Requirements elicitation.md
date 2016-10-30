@@ -18,7 +18,7 @@
 4. [Non-functional Requirements](#NFReq)
 5. [Functional Requirements](#FReq)  
 6. [Domain Model](#dm)  
-
+7. [Conclusions](#conclusions)
 ---
 
 ### <a name="intro"></a> Introduction
@@ -161,6 +161,7 @@ The domain model is a representation of meaningful real-world concepts pertinent
 </p>
 
 
+---
 ### <a name="conclusions"></a> Conclusions
 
 
