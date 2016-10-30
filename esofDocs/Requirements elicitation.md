@@ -103,7 +103,7 @@ As previously stated in the [previous report](https://github.com/Bragado/RedRead
 
 ####Use Case Diagram
 <p align="center">
-  <img src="https://github.com/Bragado/RedReader/blob/master/esofDocs/img/use%20case%20diagram.PNG" alt="Use Case Diagram"/>
+  <img src="https://github.com/Bragado/RedReader/blob/master/esofDocs/img/useCaseDiagram.png" alt="Use Case Diagram"/>
 </p>
 
 
