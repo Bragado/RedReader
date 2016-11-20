@@ -39,7 +39,6 @@ For the logic view we will have another file, to analyse a litle better this sec
 ### <a name="views"></a> Views
 
 #### <a name="logical"></a> Logical View
-####Logical View
 <p align="center">
   <img src="https://github.com/Bragado/RedReader/blob/master/esofDocs/img/logicalView.png" alt="LogicalView"/>
 </p>
