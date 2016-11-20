@@ -27,7 +27,7 @@ The following logic view diagrams ignore the fact that almost every class extend
 
 ### Account
 
-The following package contains the necessary classes that RedReader uses to access user's accounts. One of them, RedditAccountManager, extends SQLiteOpenHelper, a library made in android to "emulate" sql database.
+The following package contains the necessary classes that RedReader uses to access user's accounts. One of them, RedditAccountManager, extends SQLiteOpenHelper, a library made in Android to "emulate" sql database.
 
 <p align="center">
   <img src="https://github.com/Bragado/RedReader/blob/master/esofDocs/img/Account.PNG" alt="Account"/>
@@ -54,7 +54,7 @@ An Adapter object acts as a bridge between an AdapterView and the underlying dat
 
 ### Cache
 
-This package is responsable for cache the app's resources. Rather than store it persistently, it opens a File that represents the internal directory where RedReader application should save temporary cache files.
+This package is responsable for caching the app's resources. Rather than store it persistently, it opens a File that represents the internal directory where RedReader application should save temporary cache files.
 
 <p align="center">
   <img src="https://github.com/Bragado/RedReader/blob/master/esofDocs/img/cache.PNG" alt="Cache"/>
@@ -63,7 +63,7 @@ This package is responsable for cache the app's resources. Rather than store it 
 
 ### Common
 
-This package almost doesn't need apresentation, it implements common actions for the application.
+This package almost doesn't need any presentation, it implements common actions for the application.
 
 <p align="center">
   <img src="https://github.com/Bragado/RedReader/blob/master/esofDocs/img/common.PNG" alt="Common"/>
@@ -72,7 +72,7 @@ This package almost doesn't need apresentation, it implements common actions for
 
 ### Fragments
 
-A Fragment represents a behavior or a portion of user interface in an Activity. We can combine multiple fragments in a single activity to build a multi-pane UI and reuse a fragment in multiple activities. Basically, instead of creating one activity for each "page" to show to the user, we create fragments that can be reuse. This package contains all the fragments of RedReader
+A Fragment represents a behavior or a portion of user interface in an Activity. We can combine multiple fragments in a single activity to build a multi-pane UI and reuse a fragment in multiple activities. Basically, instead of creating one activity for each "page" to show to the user, we create fragments that can be reused. This package contains all the fragments of RedReader
 
 <p align="center">
   <img src="https://github.com/Bragado/RedReader/blob/master/esofDocs/img/fragments.PNG" alt="Fragments"/>
@@ -97,7 +97,7 @@ This package contains libraries and methods to improve the quality and performan
 
 ### Io
 
-This package contains methods to manage reddit's information
+This package contains methods to manage Reddit's information
 
 <p align="center">
   <img src="https://github.com/Bragado/RedReader/blob/master/esofDocs/img/io.PNG" alt="io"/>
@@ -106,7 +106,7 @@ This package contains methods to manage reddit's information
 
 ### Jsonwrap
 
-This package contains all the necessary  methods to deal with json, required by reddit
+This package contains all the necessary methods to deal with json, required by Reddit
 
 <p align="center">
   <img src="https://github.com/Bragado/RedReader/blob/master/esofDocs/img/jsonwraper.PNG" alt="Jsonwraper"/>
@@ -131,14 +131,14 @@ All of the classes in this package extend from BroadcastReceiver. This package i
 
 ### Reddit
 
-This package manages all the data given by reddit
+This package manages all the data given by Reddit
 
 <p align="center">
   <img src="https://github.com/Bragado/RedReader/blob/master/esofDocs/img/reddit.PNG" alt="Reddit"/>
 </p>
 ---
 
-### VierHolders
+### ViewHolders
 
 Using a background thread ("worker thread") removes strain from the main thread so it can focus on drawing the UI. In other words, it makes ListView Scrolling Smooth
 
