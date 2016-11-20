@@ -66,11 +66,25 @@ The component cache, is always running in a different Thread.  That's the scenar
 
 ---
 #### <a name="process"></a> Process View
+The next two diagrams demonstrate two distinct scenarios.
+We take this opportunity to remind that this is just an overview of what really happens in RedReader.
+The application starts and two threads are created (in both diagrams). The first thread to be created, dominated by "Cache", is responsible to control the cache and pre-cache of application data. The second thread is the information manager.
 
+Focusing now on the first diagram, after the creation of the second thread, the activity corresponding to the current state is updated. After a user command (eg, selection of a category of posts), RedditChangeData is warned and requests the RedditManager to obtain the information desired by the user. RedditManager, uses the Network to retrieve reddit information and returns it to RedditChangeData. This warns the Cache about the operation and returns to update "Activities", in order to demonstrate what the user asked for. This process is repeated until the user wants to exit the application, except when the information is already cached.
 
 <p align="center">
   <img src="https://github.com/Bragado/RedReader/blob/master/esofDocs/img/case1.PNG" alt="LogicalView"/>
 </p>
+
+The second diagram depicts the previous exception, the functionality of the pre-cache in terms of performance.
+
+The second diagram reads as follows:
+1. RedReader starts and the two threads are created
+2. The Initial Activity is displayed to the user
+3. The user chooses a category
+4. RedditManager will fetch the information to reddit, and meanwhile signal the Cache
+5. RedditManager returns the information and updates the Activity that is presented to the user
+6. When the user decides to open a post, RedditManager does not need to go to reddit once it has been cached, thus updating the user's activity immediately
 
 <p align="center">
   <img src="https://github.com/Bragado/RedReader/blob/master/esofDocs/img/case2.PNG" alt="LogicalView"/>
