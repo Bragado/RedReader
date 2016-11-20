@@ -33,6 +33,7 @@ The 4+1 View Model describes software architecture using five concurrent views. 
  
 This report  will be about RedReader 4+1 View Model as said before. We alert that RedReader has no documentation available neither any type of document discribing each package/classe implemented, also, there’s no comments in the code therefore, this report can be wrong in some sections, but we did our best to avoid it.
 
+For the logic view we will have another file, to analyse a litle better this section. 
 
 
 ### <a name="views"></a> Views
