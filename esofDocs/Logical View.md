@@ -122,6 +122,8 @@ This package contains all the necessary  methods to deal with json, required by 
 
 ### Receivers
 
+All of the classes in this package extend from BroadcastReceiver. This package is used to exchange messages between users 
+
 <p align="center">
   <img src="https://github.com/Bragado/RedReader/blob/master/esofDocs/img/receivers.PNG" alt="Receivers"/>
 </p>
