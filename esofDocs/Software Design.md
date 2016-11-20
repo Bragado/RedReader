@@ -119,10 +119,10 @@ MVC Pattern stands for Model-View-Controller Pattern. This pattern is used to se
 * **Controller** - Controller acts on both model and view. It controls the data flow into model object and updates the view whenever data changes. It keeps view and model separate.
 
 Android overview:
-**Activity** – represents the user interface class, usually packaged together to form the UI components of the application
-**Service** – allow tasks to be executed in background threads without affecting UI components
-**Content Provider** – enable data to be stored within the application
-**Broadcast Receiver** – responds to announcements from the system and provides notifications to the user.
+* **Activity** – represents the user interface class, usually packaged together to form the UI components of the application
+* **Service** – allow tasks to be executed in background threads without affecting UI components
+* **Content Provider** – enable data to be stored within the application
+* **Broadcast Receiver** – responds to announcements from the system and provides notifications to the user.
 
 This means, Android follows what MVC stands for. And this is exactly what we see in RedReader. RedReader uses Activities to represent the user interce, uses Services to access Reddit and start all the necessary threads, uses Content Provider to store the information and the broadcast receiver to provide notifications to the user.  
 
