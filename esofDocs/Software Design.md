@@ -16,7 +16,7 @@
   2. [Development view](#development)
   3. [Process view](#process)
   4. [Deployment view](#deployment)
-
+3. [Architectural Patterns](#patterns) 
 
 ---
 
@@ -104,3 +104,8 @@ The UML distribution diagram models the physical distribution of artifacts in no
 
 This diagram shows the organization of the hardware (nodes and their connections, if any) in the RedReader project system.
 We only have one node, the User's Device that corresponds to the user's hardware, that is, your computer or smartphone with the RedReader application.
+
+---
+
+### <a name="patterns"></a> Architectural Patterns
+
