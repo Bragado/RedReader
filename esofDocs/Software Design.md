@@ -67,6 +67,16 @@ The component cache, is always running in a different Thread.  That's the scenar
 ---
 #### <a name="process"></a> Process View
 
+
+<p align="center">
+  <img src="https://github.com/Bragado/RedReader/blob/master/esofDocs/img/case1.PNG" alt="LogicalView"/>
+</p>
+
+<p align="center">
+  <img src="https://github.com/Bragado/RedReader/blob/master/esofDocs/img/case2.PNG" alt="LogicalView"/>
+</p>
+
+
 ---
 #### <a name="deployment"></a> Deployment View
 
