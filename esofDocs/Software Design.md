@@ -109,3 +109,26 @@ We only have one node, the User's Device that corresponds to the user's hardware
 
 ### <a name="patterns"></a> Architectural Patterns
 
+It’s hard to identify a design pattern in RedReader. The Model View Controller seems to be a nice approach to any android application, once, the core operation of android apps is to obtain information from a data store and update the UI.
+
+Let’s now analyse Android and what MVC stands for:
+
+MVC Pattern stands for Model-View-Controller Pattern. This pattern is used to separate application's concerns.
+* **Model** - Model represents an object or JAVA POJO carrying data. It can also have logic to update controller if its data changes.
+* **View** - View represents the visualization of the data that model contains.
+* **Controller** - Controller acts on both model and view. It controls the data flow into model object and updates the view whenever data changes. It keeps view and model separate.
+
+Android overview:
+**Activity** – represents the user interface class, usually packaged together to form the UI components of the application
+**Service** – allow tasks to be executed in background threads without affecting UI components
+**Content Provider** – enable data to be stored within the application
+**Broadcast Receiver** – responds to announcements from the system and provides notifications to the user.
+
+This means, Android follows what MVC stands for. And this is exactly what we see in RedReader. RedReader uses Activities to represent the user interce, uses Services to access Reddit and start all the necessary threads, uses Content Provider to store the information and the broadcast receiver to provide notifications to the user.  
+
+It seems that MVC patterns fits well with our application however, if we look close things are different. And here is an example:
+
+The is defined UI layout of the Activity in the XML file and implement the functionality and behavior in the Java file. When we use a button, for example, the button is defined as XML element in the layout file to instantiate the button and its behavior. The handling of the behavior of the widget in response to user actions is also implemented in the same file. The button’s attributes from XML layout are access while implementing its functionality and this MVC pattern (View and Controller are not separated).
+
+Doing some research we found that MVC can be used in android apps using an Observer pattern within MVC. It does not seem to be case in this project, that’s why we said previously that “It’s hard to say”.
+
