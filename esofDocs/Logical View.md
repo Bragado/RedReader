@@ -74,7 +74,7 @@
 ### Jsonwrap
 
 <p align="center">
-  <img src="https://github.com/Bragado/RedReader/blob/master/esofDocs/img/jsonwrap.PNG" alt="Jsonwraper"/>
+  <img src="https://github.com/Bragado/RedReader/blob/master/esofDocs/img/jsonwraper.PNG" alt="Jsonwraper"/>
 </p>
 ---
 
