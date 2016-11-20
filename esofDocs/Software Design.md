@@ -29,9 +29,9 @@ Poorly designed architectures can lead to instabilities, inability to support re
 
 ### <a name="intro"></a> Introduction
 
-The 4+1 View Model describes software architecture using five concurrent views. Often, software engineers wonder: *“what do we want to do”* or *“how are we going to it”* so, they need a model that defines how they can divide the system in modules and how can they be connected with each other. This concerns divide the system in components that *“can be developed in parallel and subsequently integrated, and identify opportunities for reuse.”* In order to do that we need a specific set of concerns with the 4+1 View Model: "The logical view describes the design's object model, the process view describes the design's concurrency and synchronization aspects; the physical/deployment view describes the mapping of the software onto the hardware and shows the system's distributed aspects, and the development view describes the software's static organization in the development environment. Software designers can organize the description of their architectural decisions around these four views and then illustrate them with a few selected use cases, or scenarios, which constitute a fifth view. The architecture is partially evolved from these scenarios. The 4+1 View Model allows various stakeholders to find what they need in the software architecture. System engineers can approach it first from the physical view, then the process view; end users, customers, and data specialists can approach it from the logical view; and project managers and software-configuration staff members can approach it from the development view."
+The 4+1 View Model describes software architecture using five concurrent views. Often, software engineers wonder: *“what do we want to do”* or *“how are we going to do it”*, so they need a model that defines how they can divide the system in modules and how can they be connected with each other. These concerns divide the system in components that *“can be developed in parallel and subsequently integrated, and identify opportunities for reuse.”* In order to do that we need a specific set of concerns with the 4+1 View Model: "The logical view describes the design's object model, the process view describes the design's concurrency and synchronization aspects; the physical/deployment view describes the mapping of the software onto the hardware and shows the system's distributed aspects, and the development view describes the software's static organization in the development environment. Software designers can organize the description of their architectural decisions around these four views and then illustrate them with a few selected use cases, or scenarios, which constitute a fifth view. The architecture is partially evolved from these scenarios. The 4+1 View Model allows various stakeholders to find what they need in the software architecture. System engineers can approach it first from the physical view, then from the process view; end users, customers, and data specialists can approach it from the logical view; and project managers and software-configuration staff members can approach it from the development view."
  
-This report  will be about RedReader 4+1 View Model as said before. We alert that RedReader has no documentation available neither any type of document discribing each package/classe implemented, also, there’s no comments in the code therefore, this report can be wrong in some sections, but we did our best to avoid it.
+This report  will be about RedReader 4+1 View Model as said before. We alert that RedReader has no documentation available or any type of document describing each package/classe implemented. There’s also no comments in the code, therefore this report can be wrong in some sections, but we did our best to avoid it.
 
 For the logic view we will have another [file](https://github.com/Bragado/RedReader/blob/master/esofDocs/Logical%20View.md), to analyse a litle better this section. 
 
@@ -41,7 +41,7 @@ For the logic view we will have another [file](https://github.com/Bragado/RedRea
 
 #### <a name="logical"></a> Logical View
 
-RedReader is an Android app so that, there are only four different types of app components: Activities; Services; Content providers; Broadcast receivers. RedReader uses them all. Almost every class in RedReader extends from one of this four components. The app start’s with RedReader class, that extends from activity, and that’s how almost every android application starts. Then, calls another class that extends from Service (threads) and so one. So basically, what I want to say with this is that Android has importante components to this project, however we are not gonna studied them, we take them as "granted".  
+RedReader is an Android app so there are only four different types of app components: Activities; Services; Content providers; Broadcast receivers. RedReader uses them all. Almost every class in RedReader extends from one of these four components. The app starts with RedReader class, that extends from activity, and that’s how almost every android application starts. Then, calls another class that extends from Service (threads) and so on. So basically, what I want to say with this is that Android has important components to this project, however we are not going to study them, we take them as "granted".  
 
 The Logic View “shows the logical packages and their relationships”. As said before, we have another [file](https://github.com/Bragado/RedReader/blob/master/esofDocs/Logical%20View.md) describing with more detail every package therefore, in this section, the following diagram shows an overview of all packages presented in RedReader.
 
@@ -52,13 +52,13 @@ The Logic View “shows the logical packages and their relationships”. As said
 ---
 
 #### <a name="development"></a> Development View
-We can not analyse every single aspect in RedReader and the following diagram only focus on how the readReader presents data to users.
-First of all we want to alert to the fact that Reddit and Android are not components from our project. Android is not considered a component because, as said before, even knowing  that all application relies in android components, they are take for granted however, we add the component in this diagram only to show that this is only possible thanks to android components. The same happens with Reddit. Reddit is not a component in our project however, it offers tools to download the information in their database.
+We can not analyse every single aspect in RedReader and the following diagram only focus on how the RedReader presents data to users.
+First of all we want to alert to the fact that Reddit and Android are not components from our project. Android is not considered a component because, as said before, even knowing  that all application relies in Android components, they are taken for granted. However, we still add the component in this diagram, only to show that this is only possible thanks to Android components. The same happens with Reddit. Reddit is not a component in our project, however, it offers tools to download the information in their database.
 
-But, how it works?
-Reddit offers tools/methods to download information and that's why RedReader needs a component to manage that information (packages described before such as  "IO"). To retrieve that information RedReader needs a "bridge", that is, a component called Network ( package jsonwrap for example) that can offer an  interface to access reddit so that the previous component can work.
-Then RedReader needs to manage all the data retrieved from reddit database that's why we need a General Manager ( such are packages reddit and common ). After every thing is downloaded the information needs to be presented and that's what RedReaderApplication offeres, a user Interface.
-The component cache, is always running in a different Thread.  That's the scenario presented in the following diagram.
+But, how does it work?
+Reddit offers tools/methods to download information and that's why RedReader needs a component to manage that information (packages described before such as  "IO"). To retrieve that information RedReader needs a "bridge", that is, a component called Network ( package jsonwrap for example) that can offer an  interface to access Reddit so that the previous component can work.
+Then, RedReader needs to manage all the data retrieved from Reddit database, that's why we need a General Manager ( such are packages reddit and common ). After everything is downloaded the information needs to be presented and that's what RedReaderApplication offers, a user Interface.
+The component cache is always running in a different Thread.  That's the scenario presented in the following diagram.
 
 <p align="center">
   <img src="https://github.com/Bragado/RedReader/blob/master/esofDocs/img/implement%20view.PNG" alt="LogicalView"/>
@@ -70,7 +70,7 @@ The next two diagrams demonstrate two distinct scenarios.
 We take this opportunity to remind that this is just an overview of what really happens in RedReader.
 The application starts and two threads are created (in both diagrams). The first thread to be created, dominated by "Cache", is responsible to control the cache and pre-cache of application data. The second thread is the information manager.
 
-Focusing now on the first diagram, after the creation of the second thread, the activity corresponding to the current state is updated. After a user command (eg, selection of a category of posts), RedditChangeData is warned and requests the RedditManager to obtain the information desired by the user. RedditManager, uses the Network to retrieve reddit information and returns it to RedditChangeData. This warns the Cache about the operation and returns to update "Activities", in order to demonstrate what the user asked for. This process is repeated until the user wants to exit the application, except when the information is already cached.
+Focusing now on the first diagram, after the creation of the second thread, the activity corresponding to the current state is updated. After a user command (eg, selection of a category of posts), RedditChangeData is warned and requests the RedditManager to obtain the information desired by the user. RedditManager, uses the Network to retrieve Reddit's information and returns it to RedditChangeData. This warns the Cache about the operation and returns to update "Activities", in order to demonstrate what the user asked for. This process is repeated until the user wants to exit the application, except when the information is already cached.
 
 <p align="center">
   <img src="https://github.com/Bragado/RedReader/blob/master/esofDocs/img/case1.PNG" alt="LogicalView"/>
@@ -86,7 +86,7 @@ The second diagram reads as follows:
 * The user chooses a category
 * RedditManager will fetch the information to reddit, and meanwhile signal the Cache
 * RedditManager returns the information and updates the Activity that is presented to the user
-* When the user decides to open a post, RedditManager does not need to go to reddit once it has been cached, thus updating the user's activity immediately
+* When the user decides to open a post, RedditManager does not need to go to Reddit once it has been cached, thus updating the user's activity immediately
 
 <p align="center">
   <img src="https://github.com/Bragado/RedReader/blob/master/esofDocs/img/case2.PNG" alt="LogicalView"/>
