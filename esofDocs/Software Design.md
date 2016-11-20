@@ -67,3 +67,9 @@ The component cache, is always running in a different Thread.  That's the scenar
 #### <a name="process"></a> Process View
 
 #### <a name="deployment"></a> Deployment View
+
+The UML distribution diagram models the physical distribution of artifacts in nodes.
+
+
+This diagram shows the organization of the hardware (nodes and their connections, if any) in the RedReader project system.
+We only have one node, the User's Device that corresponds to the user's hardware, that is, your computer or smartphone with the RedReader application.
