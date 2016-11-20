@@ -33,7 +33,7 @@ The 4+1 View Model describes software architecture using five concurrent views. 
  
 This report  will be about RedReader 4+1 View Model as said before. We alert that RedReader has no documentation available neither any type of document discribing each package/classe implemented, also, there’s no comments in the code therefore, this report can be wrong in some sections, but we did our best to avoid it.
 
-For the logic view we will have another file, to analyse a litle better this section. 
+For the logic view we will have another [file](https://github.com/Bragado/RedReader/blob/master/esofDocs/Logical%20View.md), to analyse a litle better this section. 
 
 ---
 
@@ -43,7 +43,7 @@ For the logic view we will have another file, to analyse a litle better this sec
 
 RedReader is an Android app so that, there are only four different types of app components: Activities; Services; Content providers; Broadcast receivers. RedReader uses them all. Almost every class in RedReader extends from one of this four components. The app start’s with RedReader class, that extends from activity, and that’s how almost every android application starts. Then, calls another class that extends from Service (threads) and so one. So basically, what I want to say with this is that Android has importante components to this project, however we are not gonna studied them, we take them as "granted".  
 
-The Logic View “shows the logical packages and their relationships”. As said before, we have another file describing with more detail every package therefore, in this section, the following diagram shows an overview of all packages presented in RedReader.
+The Logic View “shows the logical packages and their relationships”. As said before, we have another [file](https://github.com/Bragado/RedReader/blob/master/esofDocs/Logical%20View.md) describing with more detail every package therefore, in this section, the following diagram shows an overview of all packages presented in RedReader.
 
 <p align="center">
   <img src="https://github.com/Bragado/RedReader/blob/master/esofDocs/img/logicalView.png" alt="LogicalView"/>
