@@ -35,15 +35,25 @@ This report  will be about RedReader 4+1 View Model as said before. We alert tha
 
 For the logic view we will have another file, to analyse a litle better this section. 
 
+---
 
 ### <a name="views"></a> Views
 
 #### <a name="logical"></a> Logical View
+
+RedReader is an Android app so that, there are only four different types of app components: Activities; Services; Content providers; Broadcast receivers. RedReader uses them all. Almost every class in RedReader extends from one of this four components. The app start’s with RedReader class, that extends from activity, and that’s how almost every android application starts. Then, calls another class that extends from Service (threads) and so one. So basically, what I want to say with this is that Android has importante components to this project, however we are not gonna studied them, we take them as "granted".  
+
+The Logic View “shows the logical packages and their relationships”. As said before, we have another file describing with more detail every package therefore, in this section, the following diagram shows an overview of all packages presented in RedReader.
+
 <p align="center">
   <img src="https://github.com/Bragado/RedReader/blob/master/esofDocs/img/logicalView.png" alt="LogicalView"/>
 </p>
 
+---
+
 #### <a name="development"></a> Development View
+
+
 
 #### <a name="process"></a> Process View
 
