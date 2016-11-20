@@ -128,7 +128,7 @@ This means Android follows what MVC stands for, and this is exactly what we see 
 
 It seems that MVC patterns fits well with our application. However, if we look closely, things are different, and here is an example:
 
-The is defined UI layout of the Activity in the XML file and implement the functionality and behavior in the Java file. When we use a button, for example, the button is defined as an XML element in the layout file to instantiate the button and its behavior. The handling of the behavior of the widget in response to user actions is also implemented in the same file. The button’s attributes from the XML layout are accessed while implementing its functionality and this MVC pattern (View and Controller are not separated).
+The UI layout of the Activity is defined in the XML file and the functionality and behavior are implemented in the Java file. When we use a button, for example, the button is defined as an XML element in the layout file to instantiate the button and its behavior. The handling of the behavior of the widget in response to user actions is also implemented in the same file. The button’s attributes from the XML layout are accessed while implementing its functionality and this MVC pattern (View and Controller are not separated).
 
 Doing some research we found that MVC can be used in Android apps using an Observer pattern within MVC. It does not seem to be the case in this project, that’s why we said previously that “It’s hard to say”.
 
