@@ -52,8 +52,17 @@ The Logic View “shows the logical packages and their relationships”. As said
 ---
 
 #### <a name="development"></a> Development View
+We can not analyse every single aspect in RedReader and the following diagram only focus on how the readReader presents data to users.
+First of all we want to alert to the fact that Reddit and Android are not components from our project. Android is not considered a component because, as said before, even knowing  that all application relies in android components, they are take for granted however, we add the component in this diagram only to show that this is only possible thanks to android components. The same happens with Reddit. Reddit is not a component in our project however, it offers tools to download the information in their database.
 
+But, how it works?
+Reddit offers tools/methods to download information and that's why RedReader needs a component to manage that information (packages described before such as  "IO"). To retrieve that information RedReader needs a "bridge", that is, a component called Network ( package jsonwrap for example) that can offer an  interface to access reddit so that the previous component can work.
+Then RedReader needs to manage all the data retrieved from reddit database that's why we need a General Manager ( such are packages reddit and common ). After every thing is downloaded the information needs to be presented and that's what RedReaderApplication offeres, a user Interface.
+The component cache, is always running in a different Thread.  That's the scenario presented in the following diagram.
 
+<p align="center">
+  <img src="https://github.com/Bragado/RedReader/blob/master/esofDocs/img/implement%20view.PNG" alt="LogicalView"/>
+</p>
 
 #### <a name="process"></a> Process View
 
