@@ -18,8 +18,7 @@
 ### <a name="intro"></a> Introduction
 
 In this report we will analyze redReader's code with regard to software tests. First will be analyzed degrees of testability: controllability of tested components, observability of test results, isolateability of components, separation of concerns, understandability of components and heterogeneity of used resources.
-Then will be presented project's test statistics with regard of number of tests, coverage and other aspects.
-Finally, will be reported the process of correcting a bug in the project.
+Then will be presented project's test statistics with regard of number of tests, coverage and other aspects. Finally, will be reported the process of correcting a bug in the project.
 ---
 
 ### <a name="test"></a> Software Testability
