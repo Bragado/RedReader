@@ -98,7 +98,7 @@ RedReader let's you save images presented on the screen and RedReader saves the 
 
 We tried several aproaches to resolve this bug. We already knew that this problem only happens with images therefore, we just insert the extension in the end of the filename. This looked like a naive resolution, but we tried to use libraries that could "guess" the mimeType and we didn't have any success because those libraries don't work well with InputStream.
 
-####a  Pull Request
+#### Pull Request
 
 We created a new fork of ReadReader and made a [pull request](https://github.com/QuantumBadger/RedReader/pull/415) so that, our bug fix, can be evaluated by Travis CI and accepted by the main developer of RedReader
 
