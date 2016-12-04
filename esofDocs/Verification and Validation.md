@@ -55,7 +55,7 @@ A product can pass the verification, as it is done on paper and no running or fu
 
 Defines the control degree of components to test. Starting with unit tests which are created by the developer, RedReader uses the JUnit framework. This framework offers the following:
 * Find Bugs - Checks if the code has some bugs;
-* Open Tasks - Searchs "#TODO" comments to find if there's something missing that needs to be done;
+* Open Tasks - Searchs "TODO" comments to find if there's something missing that needs to be done;
 * Code Coverage - Quantity of rows coverage by tests.
 
 However, there's almost no tests running in this project. RedReader is using JUnit but there's only a few tests that don't cover 
