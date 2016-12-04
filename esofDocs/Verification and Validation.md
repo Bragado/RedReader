@@ -56,7 +56,7 @@ RedReader has a poor observability. Starting with unit test, that almost doesn't
 Therefore, we conclude that again, there's so much to be improved.
 
 #### <a name="isol"></a> Isolateability
-This is always a complex topic and most of the time hard to classify. When testing a function of a module A that uses another function of module B, the success of the tests performed on the function of A depends not only on the function code of that function but also on the function of module B, that is, tests can fail Even if the function code of A is completely correct so, it's always difficult to look at the code and say "the isolateability is correct/incorrect". However, there are libraries such as [Easy Mock](http://easymock.org/) that could be use to test the isolateability of RedReader. 
+RedReader is programmed in Java, an object oriented language, and sometimes, to improve the separation of concerns, we lost isolability. Therefore, when testing a function of a module A that uses another function of module B, the success of the tests performed on the function of A depends not only on the function code of that function but also on the function of module B, that is, tests can fail Even if the function code of A is completely correct so, it's always difficult to look at the code and say "the isolateability is correct/incorrect". However, we thing RedReader has a good isolateability, in our opinion, it will be easy to test every artifact without deeply depend in the result of another one. Our suggestion: there are libraries such as [Easy Mock](http://easymock.org/) that could be use to test the isolateability of RedReader. 
 
 #### <a name="sep"></a> Separation of concerns
 
