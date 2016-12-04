@@ -41,6 +41,10 @@ the software is of high quality but will not ensure that is the rigth system.
 
 A product can pass while verification, as it is done on the paper and no running or functional application is required. But, when same points which were verified on the paper is actually developed then the running application or product can fail while validation. This may happen because when a product or application is build as per the specification but these specifications are not up to the mark hence they fail to address the user requirements.
 
+<p align="center">
+  <img src="https://github.com/Bragado/RedReader/blob/master/esofDocs/img/VV.PNG" alt="Validation and Verification"/>
+</p>
+
 ---
 
 ### <a name="test"></a> Software Testability
