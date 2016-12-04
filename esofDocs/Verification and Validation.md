@@ -31,7 +31,15 @@ Finally, will be reported the process of correcting a bug in the project.
 
 ### <a name="intro"></a> Introduction
 
+Verification and Validation, these two terms are common in software enginnering but, what's the difference and why are they importante?
 
+#### Difference between Verification and Validation
+
+Validation is concerned with checking that the system will meet the customor's needs.
+Verification is concerned with whether the system is well-engineered, error-free ... This will determine whether
+the software is of high quality but will not ensure that is the rigth system.
+
+A product can pass while verification, as it is done on the paper and no running or functional application is required. But, when same points which were verified on the paper is actually developed then the running application or product can fail while validation. This may happen because when a product or application is build as per the specification but these specifications are not up to the mark hence they fail to address the user requirements.
 
 ---
 
