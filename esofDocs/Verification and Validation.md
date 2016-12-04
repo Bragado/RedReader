@@ -102,3 +102,10 @@ We tried several aproaches to resolve this bug. We already knew that this proble
 
 We created a new fork of ReadReader and made a [pull request](https://github.com/QuantumBadger/RedReader/pull/415) so that, our bug fix, can be evaluated by Travis CI and accepted by the main developer of RedReader
 
+#### Unit Test
+
+We did not include any test because there's almost no tests in RedReader however, we created a unit test to test our changes:
+
+<p align="center">
+  <img src="https://github.com/Bragado/RedReader/blob/master/esofDocs/img/bug%20fix.PNG" alt="Unit Test"/>
+</p>
