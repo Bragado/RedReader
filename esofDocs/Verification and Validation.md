@@ -41,6 +41,7 @@ Defines the control degree of components to test. Starting with unit tests who a
 * FindBugs - Checks if code have some bugs;
 * Open Tasks - searchs comments #TODO" to find if is missing something to do;
 * Code Coverage - quantity of rows coverage by tests.
+
 However, there's almost no test running in this project. RedReader is using JUnit but there's only a few tests that don't cover almost anything and were made only for particular scenarios, almost every new feature don't come up with unit tests. In our opinion there is so much more that has to be improved about unit tests.
 RedReader also uses Travis CI. "When Travis CI has been activated for a given repository, GitHub will notify it whenever new commits are pushed to that repository or a pull request is submitted. It can also be configured to only run for specific branches, or branches whose names match a specific pattern. Travis CI will then check out the relevant branch and run the commands specified in .travis.yml, which usually build the software and run any automated tests." But again, this tool potential is not being maximized in this project.
 
