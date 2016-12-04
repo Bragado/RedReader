@@ -51,7 +51,12 @@ The observability of test results is easy through JUnit.
 
 #### <a name="sep"></a> Separation of concerns
 
-During the process of software development it is important to ensure that each functionality stays confined in the respective component, preventing the code from being confused. In projects of big dimensions is required a special attention at this aspects to avoid the occurrence of badly structure code, what increases the cost of project's maintenance. In this way, redReader separates each functionality to the respective module, having a folder only for the tests.
+During the process of software development it is important to ensure that each functionality stays confined in the respective component, preventing the code from being confused. In projects of big dimensions is required a special attention at this aspects to avoid the occurrence of badly structure code, what increases the cost of project's maintenance. So let's do some "digging" in RedReader to find out if each feature is confined to its component:
+
+* RedReader is an Android application and Android applications have four main components (Activities, Services, Content providers, Broadcast receivers) therefore they should be confined to different RedReader components. There is no component in RedReader that has more than one Android component implemented.
+* "RedReader downloads posts from Reddit and shows them to the user and he can also choose to save the image", this is a scenario that expresses how well the separation of concerns is implemented: "RedReader downloads posts from Reddit. .. " To do this, RedReader has a component that only serves to download information between Reddit and RedReader and another component that makes that connection; "... shows them [posts] to the user ...", RedReader has several components to, only, interact with users; "... the user can also choose to save the image ..." This last action is structured in three differentiated components, one is responsible for user interaction with the application, the second component has cached the image, and a third component that effectively saves an image.
+
+Therefore, we can only conclude that the separation of concerns in RedReader is correct.
 
 #### <a name="und"></a> Understandability
 
