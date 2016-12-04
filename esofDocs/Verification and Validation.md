@@ -89,3 +89,14 @@ RedReader is a project with a huge heterogeneity since it uses several external 
 
 ### <a name="bug"></a> Bug Report
 
+We solved bug #411 presented in github issues list
+
+#### Information:
+RedReader let's you save images presented on the screen and RedReader saves the images with a filename equals to the image url.  The problem is that Reddit created a new feature to upload images and those images url don't have extenetion therefore, when RedReader saves it, the image can't be open because there's no extension.
+ 
+#### Resolution:
+
+We tried several aproaches to resolve this bug. We already knew that this problem only happens with images therefore, we just insert the extension in the end of the filename. This looked like a naive resolution, but we tried to use libraries that could "guess" the mimeType and we didn't have any success because those libraries don't work well with InputStream.
+
+#### Pull Request
+
