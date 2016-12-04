@@ -89,7 +89,7 @@ RedReader is a project with a huge heterogeneity since it uses several external 
 
 ### <a name="bug"></a> Bug Report
 
-We solved bug #411 presented in github issues list
+We solved bug [#411](https://github.com/QuantumBadger/RedReader/issues/411) presented in github issues list
 
 #### Information:
 RedReader let's you save images presented on the screen and RedReader saves the images with a filename equals to the image url.  The problem is that Reddit created a new feature to upload images and those images url don't have extenetion therefore, when RedReader saves it, the image can't be open because there's no extension.
