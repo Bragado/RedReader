@@ -94,6 +94,22 @@ RedReader is a project with a huge heterogeneity since it uses several external 
 
 ### <a name="tests"></a> Test Statistics
 
+The developer seems to rely mostly on manual testing, as shown by the very limited amount of automated tests. In that regard, it's probably one of the weakest areas of the project.
+
+The following results were obtained using Intellij IDEA code coverage tool:
+
+* Number of unit tests: 22
+
+<p align="center">
+  <img src="https://github.com/Bragado/RedReader/blob/master/esofDocs/img/testCoverageOverall.png" alt="Overall Coverage"/>
+</p>
+
+<p align="center">
+  <img src="https://github.com/Bragado/RedReader/blob/master/esofDocs/img/testCoveragePackage.png" alt="Package Coverage"/>
+</p>
+
+As we can see, almost nothing is covered, pretty much all tests are unit tests revolving around the Markdown Tokenizer. Since this is a rather small-scale project, the developer clearly didn't bother much with automated testing, resorting almost always to manual testing and bugs found by users.
+
 ---
 
 ### <a name="bug"></a> Bug Report
