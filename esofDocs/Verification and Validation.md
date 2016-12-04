@@ -61,6 +61,12 @@ Therefore, we can only conclude that the separation of concerns in RedReader is 
 #### <a name="und"></a> Understandability
 
 #### <a name="het"></a> Heterogeneity
+RedReader is a project with a huge heterogeneity since it uses several external technologies to execute. Some of those technologies are:
+
+* **[OkHttp](https://github.com/square/okhttp):** "An HTTP & HTTP/2 client for Android and Java applications."
+* **[NetCipher](https://github.com/square/okhttp)** "a library for Android that provides multiple means to improve network security in mobile applications."
+* **[jackson-core](https://github.com/square/okhttp)** "core low-level incremental ("streaming") parser and generator abstractions used by Jackson Data Processor."
+* **[joda-time](https://github.com/square/okhttp)** "provides a quality replacement for the Java date and time classes."
 
 ---
 
