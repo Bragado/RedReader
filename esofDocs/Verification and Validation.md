@@ -106,6 +106,8 @@ RedReader is a project with a huge heterogeneity since it uses several external 
 
 ### <a name="tests"></a> Test Statistics
 
+#### Dynamic Testing
+
 The developer seems to rely mostly on manual testing, as shown by the very limited amount of automated tests. In that regard, it's probably one of the weakest areas of the project.
 
 The following results were obtained using Intellij IDEA code coverage tool:
@@ -121,6 +123,33 @@ The following results were obtained using Intellij IDEA code coverage tool:
 </p>
 
 As we can see, almost nothing is covered, pretty much all tests are unit tests revolving around the Markdown Tokenizer. Since this is a rather small-scale project, the developer clearly didn't bother much with automated testing, resorting almost always to manual testing and bugs found by users.
+
+#### Static Testing
+
+Seeing as there was not much to analyze in the dynamic tests, we decided to do a static analysis using [Codacy](https://www.codacy.com/).
+
+The analysis is based on each of the following categories:
+
+* Code Style - Code formatting and syntax problems. Ex: variable name style, enforce the use of brackets and quotation marks
+* Error Prone - Code that may hide bugs and language keywords that should be used with caution. Ex: == in Javascript or Option.get in Scala
+* Code Complexity - Highly complex methods and classes that should be refactored
+* Performance - Code that could have performance problems
+* Compatibility - Used mainly for frontend code, detects compatibility problems across different browser versions
+* Unused Code - Unused variables and methods, code that can't be reached
+* Security - Security problems.
+* Documentation - Detects methods and classes that do not have the correct comment annotations
+
+<p align="center">
+  <img src="https://github.com/Bragado/RedReader/blob/master/esofDocs/img/codacyResults.png" alt="Codacy Results"/>
+</p>
+
+There are no issues with the compatibility and performance. The use of the NetCipher library means there are also no problems regarding the project's security. 
+
+As expected, there are a few issues regarding code style and unused code, but nothing major that would hinder the project. However, the results regarding error proneness were not as satisfactory and is definitely something that could be worked on to further improve the code's quality.
+
+Unfortunately we could not get any results regarding code complexity and documentation.
+
+All in all results were mostly positive, granting a project quality rank of B (on a scale from F to A).
 
 ---
 
