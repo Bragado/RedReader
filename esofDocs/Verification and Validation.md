@@ -64,6 +64,15 @@ Therefore, we can only conclude that the separation of concerns in RedReader is 
 
 #### <a name="und"></a> Understandability
 
+RedReader's understandability is probably its weakest point. RedReader does not have any type of documentation, the only information available to explain RedReader is the one that is present on PlayStore.
+
+The code also does not have any type of comment, only one has a header to explain the license of the project.
+
+This complicates the task of those who want to contribute to the project, because it is difficult to create a new functionality when you do not know where every dependecy is implemented, for inexperienced programmers in Android it is practically impossible to contribute.
+
+To demonstrate the problem of bad code comprehensibility, when we had to correct the bug mentioned below, we had to reverse engineer the code, that is, we already knew what to do and how to correct the code, we just did not know where the code was. So, based on what was shown on the screen at the time of the bug, it was reverse engineered until it reached the basis of the problem. Good documentation would avoid this whole work and help maintain code consistency.
+
+
 #### <a name="het"></a> Heterogeneity
 RedReader is a project with a huge heterogeneity since it uses several external technologies to execute. Some of those technologies are:
 
