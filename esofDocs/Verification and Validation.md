@@ -104,7 +104,7 @@ We created a new fork of ReadReader and made a [pull request](https://github.com
 
 #### Unit Test
 
-We did not include any test because there's almost no tests in RedReader however, we created a unit test to test our changes:
+We did not include any test (on the pull request) because there's almost no tests in RedReader however, we created a unit test to test our changes:
 
 <p align="center">
   <img src="https://github.com/Bragado/RedReader/blob/master/esofDocs/img/bug%20fix.PNG" alt="Unit Test"/>
