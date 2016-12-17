@@ -38,18 +38,28 @@ The following results were obtained using the service https://bettercodehub.com:
 
 #### 1.*"Write Short Units of Code"*
 
-RedReader does not limit the length of code units to 15 lines of code. It has long units which becomes hard to test, reuse and understand.
+RedReader does not limit the length of code units (smallest groups of code that can be maintained and executed independently) to 15 lines of code. It has long units which becomes hard to test, reuse and understand.
 
 #### 2.*"Write Simple Units of Code"*
 
-The code has a higher number of branch points. A branch point is a statement where execution can take more than one direction depending on a condition. This makes the code complex that modifying it becomes extremely risky and a very time-consuming task.
+One of the disputed characteristic of maintainability is complexity of code.
+The RedReader's code has a higher number of branch points. A branch point is a statement where execution can take more than one direction depending on a condition. This makes the code complex that modifying it becomes extremely risky and a very time-consuming task.
 
 #### 3.*"Write Code Once"*
 
-The code has a lot of duplicated code. This is not good, because when code is copied, bugs need to be fixed at multiple places, which is inefficient and error-prone.
+All code may contain bugs. If the duplicate code contains a bug, the same error will appear several times.
+The RedReader’s code has a lot of duplicated code. This is not good, because when code is copied, bugs need to be fixed at multiple places, which is inefficient and error-prone.
 
 #### 4.*"Keep Unit Interfaces Small"*
+
+Methods with small interfaces keep their context simple and thus easier to understand.
+At least 30 units of RedReader's code have more than 4 parameters for unit at RedReader's code. This makes the units hard to understand and reuse.
+
 #### 5.*"Separate Concerns in Modules"*
+
+Keeping classes small provides a direct path towards loose coupling between classes. This means that class level design will be much more flexible to facilitate future changes, in other words, changes can be made while limiting unexpected effects of those changes.
+RedReader's code has large modules. This can't get loose couplings between them. Therefore, changes in code-base are hard to oversee and execute.
+
 #### 6.*"Couple Architecture Components Loosely"*
 #### 7.*"Keep Architecture Components Balanced"*
 #### 8.*"Keep Your Codebase Small"*
