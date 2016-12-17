@@ -56,6 +56,8 @@ The code has a lot of duplicated code. This is not good, because when code is co
 #### 9.*"Automate Tests"*
 #### 10.*"Write Clean Code"*
 
+RedReader presents a very clean code, not making use of useless comments or annotated code blocks and dead code. This is an asset, as a cleaner code is more maintainable code.
+
 ---
 
 ### <a name="evol"></a> Evolution process
