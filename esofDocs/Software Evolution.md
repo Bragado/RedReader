@@ -54,7 +54,7 @@ The code has a lot of duplicated code. This is not good, because when code is co
 #### 7.*"Keep Architecture Components Balanced"*
 #### 8.*"Keep Your Codebase Small"*
 
-Keeping codebase small improves maintainability, as it's less work to make structural changes in a smaller codebase. RedReader keeps volume below 20 Man-years (aproximadamente 39 Man-Months).
+Keeping codebase small improves maintainability, as it's less work to make structural changes in a smaller codebase. RedReader keeps volume below 20 Man-years (about 39 Man-Months).
 In a small system it is easier to search through code, analyze and understand it. This ease of maintenance leads to fewer mistakes and lower costs.
 Technical adjustments such as refactoring and reuse of functionality are easier with a small system and will be beneficial for all further coding.
 
