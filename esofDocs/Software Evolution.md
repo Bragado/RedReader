@@ -54,6 +54,10 @@ The code has a lot of duplicated code. This is not good, because when code is co
 #### 7.*"Keep Architecture Components Balanced"*
 #### 8.*"Keep Your Codebase Small"*
 #### 9.*"Automate Tests"*
+
+Automated testing makes development efficient and can be executed with much less effort than manual tests. Automating tests for codebase makes development more predictable and less risky.
+RedReader features about 28,000 lines of code, with only 245 (<1.0%) test code lines, and assert density below the recommended 5%.
+
 #### 10.*"Write Clean Code"*
 
 RedReader presents a very clean code, not making use of useless comments or annotated code blocks and dead code. This is an asset, as a cleaner code is more maintainable code.
