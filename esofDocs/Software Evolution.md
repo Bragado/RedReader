@@ -36,25 +36,25 @@ The following results were obtained using the service https://bettercodehub.com:
   <img src="https://github.com/Bragado/RedReader/blob/master/esofDocs/img/maintenance.png" alt="Maintenance"/>
 </p>
 
-#### 1.Write Short Units of Code
+#### 1.*"Write Short Units of Code"*
 
 RedReader does not limit the length of code units to 15 lines of code. It has long units which becomes hard to test, reuse and understand.
 
-#### 2.Write Simple Units of Code
+#### 2.*"Write Simple Units of Code"*
 
 The code has a higher number of branch points. A branch point is a statement where execution can take more than one direction depending on a condition. This makes the code complex that modifying it becomes extremely risky and a very time-consuming task.
 
-#### 3.Write Code Once
+#### 3.*"Write Code Once"*
 
 The code has a lot of duplicated code. This is not good, because when code is copied, bugs need to be fixed at multiple places, which is inefficient and error-prone.
 
-#### 4.Keep Unit Interfaces Small
-#### 5.Separate Concerns in Modules
-#### 6.Couple Architecture Components Loosely
-#### 7.Keep Architecture Components Balanced
-#### 8.Keep Your Codebase Small
-#### 9.Automate Tests
-#### 10.Write Clean Code
+#### 4.*"Keep Unit Interfaces Small"*
+#### 5.*"Separate Concerns in Modules"*
+#### 6.*"Couple Architecture Components Loosely"*
+#### 7.*"Keep Architecture Components Balanced"*
+#### 8.*"Keep Your Codebase Small"*
+#### 9.*"Automate Tests"*
+#### 10.*"Write Clean Code"*
 
 ---
 
