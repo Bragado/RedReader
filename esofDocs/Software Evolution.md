@@ -39,7 +39,7 @@ Optimizing a software system requires modifications to its source code. Sometime
 
 ### <a name="maint"></a> Software maintainability
 
-The following results were obtained using the service https://bettercodehub.com:
+Better Code Hub runs the first analysis of any GitHub repository with the default configuration. It analyzes source code that the user submit by pointing BetterCodeHub at his GitHub repository. This default configuration is based on the programming languages reported by GitHub and supported by Better Code Hub. The following results were obtained using the service https://bettercodehub.com:
 
 <p align="center">
   <img src="https://github.com/Bragado/RedReader/blob/master/esofDocs/img/maintenance.png" alt="Maintenance"/>
