@@ -61,6 +61,9 @@ Keeping classes small provides a direct path towards loose coupling between clas
 RedReader's code has large modules. This can't get loose couplings between them. Therefore, changes in code-base are hard to oversee and execute.
 
 #### 6.*"Couple Architecture Components Loosely"*
+
+Redreader contains only 1 component (minimising the amount of interface code). At this point, it is essential avoid interface modules that put through calls to other components and limit the size of modules that are the component’s interface.
+
 #### 7.*"Keep Architecture Components Balanced"*
 #### 8.*"Keep Your Codebase Small"*
 
