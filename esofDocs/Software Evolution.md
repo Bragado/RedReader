@@ -18,8 +18,7 @@
 
 ### Abstract
 
-In this report we will analyze RedReader's code regarding software evolution. Firstly, we will discuss software maintainability using the SIG metrics. Then we will report evolution process implementing a feature that we have chosen, describing how the feature was identified,
-why did we chosen that feature and how did we located the parts in the source code that needed to be modified.
+In this report we will analyze RedReader's code regarding Software Evolution. Firstly, we will discuss software maintainability using the SIG metrics. Then we will report the evolution process of implementing a feature that we have chosen, describing how the feature was identified, why we chose that feature and how we located the parts in the source code that needed to be modified.
 
 ---
 
@@ -48,12 +47,12 @@ The following results were obtained using the service https://bettercodehub.com:
 
 #### 1.*"Write Short Units of Code"*
 
-RedReader does not limit the length of code units (smallest groups of code that can be maintained and executed independently) to 15 lines of code. It has long units which becomes hard to test, reuse and understand.
+RedReader does not limit the length of code units (smallest groups of code that can be maintained and executed independently) to 15 lines of code. It has long code units which makes it hard to test, reuse and understand.
 
 #### 2.*"Write Simple Units of Code"*
 
 One of the disputed characteristic of maintainability is complexity of code.
-The RedReader's code has a higher number of branch points. A branch point is a statement where execution can take more than one direction depending on a condition. This makes the code complex that modifying it becomes extremely risky and a very time-consuming task.
+The RedReader's code has a higher than ideal number of branch points. A branch point is a statement where execution can take more than one direction depending on a condition. This makes the code so complex that modifying it becomes extremely risky and a very time-consuming task.
 
 #### 3.*"Write Code Once"*
 
@@ -72,11 +71,11 @@ RedReader's code has large modules. This can't get loose couplings between them.
 
 #### 6.*"Couple Architecture Components Loosely"*
 
-Redreader contains only 1 module (minimising the amount of interface code). At this point, it is essential avoid interface modules that put through calls to other components and limit the size of modules that are the component’s interface.
+Redreader contains only 1 module (minimizing the amount of interface code). At this point, it is essential to avoid interface modules that put through calls to other components and limit the size of modules that are the component’s interface.
 
 #### 7.*"Keep Architecture Components Balanced"*
 
-The number of top-level system components should ideally be 9, and generally between 6 and 12 and the components’ volume in terms of source code should be roughly equal however, Redreader contains only 1 component. This can be a disadvantage in the case of projects involving a team with a division of responsibilities.
+The number of top-level system components should ideally be 9, generally between 6 and 12, and the components’ volume in terms of source code should be roughly equal. However, Redreader contains only 1 component, this can be a disadvantage in the case of projects involving a team with a division of responsibilities.
 
 #### 8.*"Keep Your Codebase Small"*
 
@@ -86,7 +85,7 @@ Technical adjustments such as refactoring and reuse of functionality are easier 
 
 #### 9.*"Automate Tests"*
 
-Automated testing makes development efficient and can be executed with much less effort than manual tests. Automating tests for codebase makes development more predictable and less risky.
+Automated testing makes development efficient and can be executed with much less effort than manual tests. Automating tests for the codebase makes development more predictable and less risky.
 RedReader features about 28,000 lines of code, with only 245 (<1.0%) test code lines, and assert density below the recommended 5%.
 
 #### 10.*"Write Clean Code"*
