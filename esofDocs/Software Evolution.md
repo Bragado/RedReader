@@ -65,6 +65,9 @@ RedReader's code has large modules. This can't get loose couplings between them.
 Redreader contains only 1 module (minimising the amount of interface code). At this point, it is essential avoid interface modules that put through calls to other components and limit the size of modules that are the component’s interface.
 
 #### 7.*"Keep Architecture Components Balanced"*
+
+The number of top-level system components should ideally be 9, and generally between 6 and 12 and the components’ volume in terms of source code should be roughly equal however, Redreader contains only 1 component. This can be a disadvantage in the case of projects involving a team with a division of responsibilities.
+
 #### 8.*"Keep Your Codebase Small"*
 
 Keeping codebase small improves maintainability, as it's less work to make structural changes in a smaller codebase. RedReader keeps volume below 20 Man-years (about 39 Man-Months).
