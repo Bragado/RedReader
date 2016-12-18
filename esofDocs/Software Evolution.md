@@ -25,6 +25,16 @@ why did we chosen that feature and how did we located the parts in the source co
 
 ### <a name="intro"></a> Introduction
 
+Software change is inevitable. Evolution starts from the process of gathering of requirements. Developers create a prototype of the intended software and then the they show it to the users to get feedback from the users at the early stage of software product development. The users suggest changes, on which several updates and maintenance keep on changing too. This process changes the original software, until the desired software is accomplished. Re-creating software from scratch and to go one-on-one with requirement is not feasible. The only feasible and economical solution is to update the existing software so that it matches the latest requirements.
+Maintainability is defined as the ease with which changes can be made to a software system. Four types of software maintenance can be distinguished:
+
+* Corrective maintenance (fix bugs who are discovered)
+* Adaptive maintenance (the system has to be adapted to changes in the environment in which it operates)
+* Perfective maintenance (users of the system have new or changed requirements)
+* Preventive maintenance (ways are identified to increase quality or prevent future bugs from occurring) 
+
+Maintainability is a special aspect of software quality, it acts as an enabler for other quality characteristics. When a system has high maintainability it will be easier to make improvements in the other quality aspects, such as fixing a security bug. 
+Optimizing a software system requires modifications to its source code. Sometimes they are small, local modifications. Sometimes it involves more invasive restructuring. All modifications require finding a specific piece of source code and analyzing it. In a more maintainable system these modifications are easier to make, allowing to pull off quality optimizations faster and more effectively.
 
 ---
 
