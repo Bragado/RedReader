@@ -98,6 +98,13 @@ RedReader presents a very clean code, not making use of useless comments or anno
 
 #### <a name="ident"></a> Feature identification
 
+As stated in the previous report, RedReader has a list of issues in gitbug. All bugs and suggestions for new
+Features are described in this list. Initially, we attempted to implement the suggestion of direct sharing of images, however, before we finished the implementation, another developer did [pull request](https://github.com/QuantumBadger/RedReader/issues/413) of the same feature and was accepted. As such, the members of our group have chosen to implement another feature suggestion.
+ 
+The [implemented feature](https://github.com/QuantumBadger/RedReader/pull/422), "Display size when loading images", shows the progress of the image download in
+Megabytes.
+
+
 #### <a name="change"></a> Changes in the source code
 
 ---
