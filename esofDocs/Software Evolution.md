@@ -113,3 +113,5 @@ The members of our group changed that class, in order to presente to the users t
 ---
 
 ### <a name="pull"></a> Pull request
+
+This is the [link](https://github.com/QuantumBadger/RedReader/pull/422) of our pull request. Travis CI already runned and tested our code and now, we are waiting to see if our contribution will be merged.
