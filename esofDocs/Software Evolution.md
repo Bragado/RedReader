@@ -108,7 +108,7 @@ Megabytes.
 #### <a name="change"></a> Changes in the source code
 
 RedReader has a class called "DonutProgress", which is a View. When images are downloading this View appears in  the screen and shows the download progress with a circular primitive like a donut. 
-The members of our group changed that class, in order to presente to the users the image size and the amount of MegaBytes downloaded. In order to implement that, we overload the method "set progress()" and made all the necessary modifications to print the image memory downloaded progress.
+The members of our group changed that class, in order to presente to the users the image size and the amount of MegaBytes downloaded. In order to implement that, we overload the method "set progress()" and made all the necessary modifications to print the image memory downloaded progress. We did not make any unit test because we are printing something in the screen and that's something that is not easy to test and as said before, we started with one feature and end up with another one therefore, time was not by our side.
 
 ---
 
